@@ -1,0 +1,266 @@
+
+// gem install sass
+// cd into this directory
+// sass --watch style.scss:hellahotchickens.css --style expanded
+// styles: compact, compressed, expanded
+
+
+@import url(http://fonts.googleapis.com/css?family=Rokkitt:400,700);
+
+body {
+	// background-image:url('http://othyr.com/images/furley_bg.png');
+	background: url('../img/background.png');
+}
+ul {
+	list-style: square; //studentrnd cubes
+}
+a.broken_link {
+	color: red;
+	text-decoration: none;
+}
+
+#main {
+	background-image:url('../img/header-background.png');
+	background-repeat:no-repeat;
+	background-position:center top;
+
+	.thumbnail {
+		background-color:#fff;
+		padding:20px;
+	}
+}
+
+.nav-bar {
+	margin-top:30px;
+
+	#connect {
+		text-align: right;
+
+		a {
+			padding: 3px;
+		}
+		ul {
+			list-style: none;
+			margin-top: 10px;
+			margin-right: 15px;
+			li {
+				display: inline;
+				font-size: 14px;
+				font-weight: bold;
+
+				img {
+					position: relative;
+					top: 2px;
+				}
+				&:last-child {
+					margin-left: 3px;
+				}
+			}
+		}
+	}
+}
+
+@mixin rounded($radius: 10px) {
+	border-radius: $radius;
+	-moz-border-radius: $radius;
+	-khtml-border-radius: $radius;
+	-webkit-border-radius: $radius;
+}
+@mixin inset {
+	@include rounded(5px);
+	border: 1px solid rgba(0,0,0,0.23);
+	box-shadow: inset 0 5px 4px -1px rgba(0,0,0,0.08),
+	0 1px 0 0 rgba(255,255,255,0.69);
+	background:rgba(0,0,0,0.02);
+}
+br.clearfix {
+	clear:both;
+}
+.beveled {
+	@include rounded();
+	margin:10px;
+}
+
+.hero-unit {
+	a:link {
+		text-decoration:underline;
+	}
+	img {
+		border-bottom-left-radius: 4px;
+	}
+}
+
+.box {
+	background-color:#fff;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 20px;
+	/*width:100%-20px;*/
+	margin-bottom:20px;
+}
+
+#index .box img, #getinvolved .box img {
+	margin: auto;
+	display: block;
+}
+
+
+#about {
+	h1 {
+		font-family: "Rokkitt", san-serif;
+		font-weight: 700;
+		color: #333;
+		margin:0 5px 20px;
+	}
+	.box {
+		p, li {
+			font-size: 1.2em;
+			line-height: 1.5em;
+		}
+		img {
+			text-align: left;
+			border-radius: 5px;
+		}
+	}
+}
+#about {
+	ul#projects {
+		li {
+			span.name {
+				// font-weight: bold;
+			}
+			span.info {
+				color: #888;
+				font-style: italic;
+				&:before {
+					content: " \2013  ";
+				}
+			}
+		}
+	}
+}
+#donate {
+	img.donate-image {
+		// max-width:380px;
+		max-width:980px;
+	}
+	.btn-large {
+		padding:10px 30px;
+		font-weight:bold;
+	}
+	button i {
+		position:relative;
+		top:2px;
+	}
+
+	.hero-unit {
+		// background:url("../../img/donatepage.jpg") right center no-repeat;
+
+		//images should be 980 x 400px
+
+		$imageheight: 400px;
+		$boxwidth: 0.35 * 980px;
+
+		height:$imageheight;
+		padding:0;
+		
+
+		.donate-text {
+			position:relative;
+			top:-$imageheight;
+			width:$boxwidth;
+			background:rgba(255,255,255,0.69);
+			padding:20px;
+			margin:60px; //bootstrap hero-unit padding
+			@include rounded(5px);
+			h1 {
+				text-shadow: 0px 0px 30px #FFF;
+				font-size:40px;
+				padding-bottom:5px;
+			}
+			p {
+				text-shadow: 0px 0px 50px #FFF, 0px 0px 40px #FFF, 0px 0px 30px #FFF, 0px 0px 20px #FFF;
+			}
+		}
+
+		.donate-text.align-right {
+			left:980 - (4 * 60) - $boxwidth;
+		}
+		
+		.donate-image {
+			height:400px;
+			text-align:right;
+
+			img {
+				position:relative;
+				height:400px;
+			}
+			p {
+				position:relative;
+				bottom:26px + 5px;
+				// right:5px;
+				text-align:right;
+				background:rgba(255,255,255,0.69);
+
+				padding:0 5px;
+				font-size:12px;
+
+				// @include rounded(3px);
+				display:inline;
+
+			}
+		}
+
+	}
+	// form#donate {
+	// 	margin: 15px 0 0 0;
+	// }
+	// #slider {
+	// 	margin: 10px 0;
+	// }
+	// #topLevel {
+	// 	font-size: 1.5em;
+	// 	margin: 0;
+	// 	line-height: 1.5em;
+	// }
+	// .input-prepend {
+	// 	display: inline-block;
+	// 	position: relative;
+	// 	top: 5px;
+	// }
+	// #amount, .add-on {
+	// 	font-size: 1.5em;
+	// 	height: 24px;
+	// }
+	// .add-on .sign {
+	// 	position: relative;
+	// 	top: 0.1em;
+	// 	font-size: 0.75em;
+	// }
+}
+
+address {
+	.address {
+		font-size: 1.1em;
+		margin-bottom: 0;
+	}
+	.link {
+		font-size: 1em;
+		&:after {
+			content: " \00BB";
+		}
+	}
+}
+
+/* centers directions box */
+#directions {
+	.span3 {
+		position: relative;
+		left: 50px;
+	}
+}
+
+footer {
+	text-align: center;
+	margin-bottom: 5em;
+}

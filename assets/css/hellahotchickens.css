@@ -1,0 +1,184 @@
+@import url(http://fonts.googleapis.com/css?family=Rokkitt:400,700);
+body {
+  background: url("../img/background.png");
+}
+
+ul {
+  list-style: square;
+}
+
+a.broken_link {
+  color: red;
+  text-decoration: none;
+}
+
+#main {
+  background-image: url("../img/header-background.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+#main .thumbnail {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.nav-bar {
+  margin-top: 30px;
+}
+.nav-bar #connect {
+  text-align: right;
+}
+.nav-bar #connect a {
+  padding: 3px;
+}
+.nav-bar #connect ul {
+  list-style: none;
+  margin-top: 10px;
+  margin-right: 15px;
+}
+.nav-bar #connect ul li {
+  display: inline;
+  font-size: 14px;
+  font-weight: bold;
+}
+.nav-bar #connect ul li img {
+  position: relative;
+  top: 2px;
+}
+.nav-bar #connect ul li:last-child {
+  margin-left: 3px;
+}
+
+br.clearfix {
+  clear: both;
+}
+
+.beveled {
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  margin: 10px;
+}
+
+.hero-unit a:link {
+  text-decoration: underline;
+}
+.hero-unit img {
+  border-bottom-left-radius: 4px;
+}
+
+.box {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 20px;
+  /*width:100%-20px;*/
+  margin-bottom: 20px;
+}
+
+#index .box img, #getinvolved .box img {
+  margin: auto;
+  display: block;
+}
+
+#about h1 {
+  font-family: "Rokkitt", san-serif;
+  font-weight: 700;
+  color: #333;
+  margin: 0 5px 20px;
+}
+#about .box p, #about .box li {
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+#about .box img {
+  text-align: left;
+  border-radius: 5px;
+}
+
+#about ul#projects li span.info {
+  color: #888;
+  font-style: italic;
+}
+#about ul#projects li span.info:before {
+  content: " \2013  ";
+}
+
+#donate img.donate-image {
+  max-width: 980px;
+}
+#donate .btn-large {
+  padding: 10px 30px;
+  font-weight: bold;
+}
+#donate button i {
+  position: relative;
+  top: 2px;
+}
+#donate .hero-unit {
+  height: 400px;
+  padding: 0;
+}
+#donate .hero-unit .donate-text {
+  position: relative;
+  top: -400px;
+  width: 343px;
+  background: rgba(255, 255, 255, 0.69);
+  padding: 20px;
+  margin: 60px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+#donate .hero-unit .donate-text h1 {
+  text-shadow: 0px 0px 30px #FFF;
+  font-size: 40px;
+  padding-bottom: 5px;
+}
+#donate .hero-unit .donate-text p {
+  text-shadow: 0px 0px 50px white, 0px 0px 40px white, 0px 0px 30px white, 0px 0px 20px white;
+}
+#donate .hero-unit .donate-text.align-right {
+  left: 397px;
+}
+#donate .hero-unit .donate-image {
+  height: 400px;
+  text-align: right;
+}
+#donate .hero-unit .donate-image img {
+  position: relative;
+  height: 400px;
+}
+#donate .hero-unit .donate-image p {
+  position: relative;
+  bottom: 31px;
+  text-align: right;
+  background: rgba(255, 255, 255, 0.69);
+  padding: 0 5px;
+  font-size: 12px;
+  display: inline;
+}
+
+address .address {
+  font-size: 1.1em;
+  margin-bottom: 0;
+}
+address .link {
+  font-size: 1em;
+}
+address .link:after {
+  content: " \00BB";
+}
+
+/* centers directions box */
+#directions .span3 {
+  position: relative;
+  left: 50px;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 5em;
+}
