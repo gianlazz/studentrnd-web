@@ -14,7 +14,13 @@ TANG;
 				<p>$phone;</p>
 TANG;
 			}
+			if(isset($hours)) {
+				echo <<<TANG
+				<p>During the summer, we are open $hours</p>
+TANG;
+			}
 			?>
+
 		</div>
 	</div>
 </div>
