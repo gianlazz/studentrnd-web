@@ -2,7 +2,7 @@
 	<img src="http://studentrnd.org/images/header.png" style="float:left; margin:-80px 20px 20px -50px"/>
 	<h1>Let's Create!</h1>
 	<p>We're a community of students who love science and technology. </p>
-	<a href="./getinvolved/" class="btn btn-primary btn-large" style="text-decoration:none">Get Involved</a>&nbsp;&nbsp; <a href="#" onclick="javascript:$('#directions').show();">Directions & Hours</a>.
+	<a href="./getinvolved/" class="btn btn-primary btn-large" style="text-decoration:none">Get Involved</a>&nbsp;&nbsp; <a href="#" onclick="javascript:$('#directions').show();">Directions <?php if(isset($hours)) {echo '& Hours';} ?></a>.
 </div>
 
 
@@ -112,7 +112,7 @@ var_dump($tweets);
 }(document, 'script', 'facebook-jssdk'));</script>
 <div class="modal hide" id="directions">
 	<div class="modal-header">
-		<h3>Directions & Hours</h3>
+		<h3>Directions <?php if(isset($hours)) {echo '& Hours';} ?></h3>
 	</div>
 	<div class="modal-body">
 		<div class="row">
