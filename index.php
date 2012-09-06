@@ -29,7 +29,7 @@ switch($_SERVER['REQUEST_URI']) {
 		break;
 }
 
-$tang = "no-flip"; //fixes CSS4 bug
+$tang = "no-flip"; //fixes CSS4 bug 
 
 //information about StudentRND, displayed on the site
 $addressname = "StudentRND";
