@@ -1,6 +1,6 @@
 <div class="row">
 	<div class="span12">
-		<h1>StudentRND is a community of students that love science and technology. Though StudentRND resources, events, and programs students build amazing things.</h1>
+		<h1>StudentRND is a community of students that love science and technology. Through StudentRND resources, events, and programs students can build amazing things.</h1>
 		<div class="box">
 			<h2>Why does StudentRND matter?</h2>
 			<p>Technology is so prevalent nowadays&#8211;and yet, students are not really learning about the fields of science, technology, engineering, and mathematics. StudentRND is working to inspire students&#8211;through our enriching, hands-on workspace experience, through educational visits to science labs, and through a sense of community.</p>
