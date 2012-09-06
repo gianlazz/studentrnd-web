@@ -18,7 +18,7 @@
 			<h2>Electricity Is Fun (EIF)</h2>
 			<p>Join us for EIF <b>every Wednesday at 3pm-5pm</b> and create cool stuff using our electronics and fabrication labs.</p>
 			<p><a href="http://www.meetup.com/StudentRND-Meetups/" class="btn">Check out the next event on MeetUp</a></p>
-			<h2>Other Events</h2>
+			<h2>Other Events test</h2>
 			<p><a href="http://meetup.com/StudentRND-Meetups" class="btn">Meetups</a> <a href="http://meetup.com/StudentRND-Community" class="btn">Community Events</a></p>
 		</div>
 		<div class="box" id="sponsors">
