@@ -36,6 +36,7 @@
 					<li><a href="http://facebook.com/studentrnd" title="Follow us on Facebook"><img src="../assets/img/facebook.png" alt="Facebook"></a></li>
 					<li><a href="http://twitter.com/StudentRND" title="Follow us on Twitter"><img src="../assets/img/twitter.png" alt="Twitter"></a></li>
 					<li><?php echo $phone; ?></li>
+					<!-- <li>OPEN!</li> -->
 				</ul>
 			</div>
 		</div>
