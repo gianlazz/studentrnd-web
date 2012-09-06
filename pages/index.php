@@ -6,37 +6,88 @@
 </div>
 <div class="row">
 	<div class="span6">
-		<div class="box"><img src="https://sphotos.xx.fbcdn.net/hphotos-prn1/41013_422690246331_5173310_n.jpg" /><h1>StudentRND Incubator</h1><p>We know you're capable of amazing the world. We'll help you do that. Work with your friends to build amazing products over the course of the summer! </p><p><span class="btn disabled">Apply for Summer 2012</span> <a href="http://studentrndincubator.eventbrite.com/" class="btn">Attend Demo Day</a></p></div>
 		<div class="box">
+			<img src="https://sphotos.xx.fbcdn.net/hphotos-prn1/41013_422690246331_5173310_n.jpg" />
+			<h1>StudentRND Incubator</h1>
+			<p>We know you're capable of amazing the world. We'll help you do that. Work with your friends to build amazing products over the course of the summer! </p>
+			<p><span class="btn disabled">Apply for Summer 2012</span> <a href="http://studentrndincubator.eventbrite.com/" class="btn">Attend Demo Day</a></p>
+		</div>
+		<div class="box" id="sponsors">
 			<h1>Sponsors</h1>
-			<img src="http://studentrnd.org/wp-content/uploads/2009/07/medtronic.png"/><br/><br/> 
-			<img src="http://studentrnd.org/wp-content/uploads/2009/07/physio.png"/><br/><br/>
-			<img src="http://studentrnd.org/wp-content/uploads/2009/07/stratos.jpg"/><br/><br/>
-			<img src="http://studentrnd.org/wp-content/uploads/2009/07/blackberry.png"/>
-			<img src="http://studentrnd.org/wp-content/uploads/2009/07/coinstar.jpg"/>
-			<img src="http://studentrnd.org/wp-content/uploads/2009/07/swSponsor4wp_381_.jpg"/><br/><br/>
-			<img src="http://thinkspace.com/wp-content/uploads/2011/12/thinkspace-logo-transparent.png"/><br/><br/>
-			<img src="http://studentrnd.org/wp-content/uploads/2009/07/startupcity.png"/><br/><br/>
-			<img src="http://studentrnd.org/wp-content/uploads/2009/07/t2k.gif"/><br/><br/>
-			<img src="http://www.htc.com/us/img/HTC_logo_tag.gif"/>
+			<img src="http://studentrnd.org/wp-content/uploads/2009/07/medtronic.png" id="medtronic">
+			<img src="http://studentrnd.org/wp-content/uploads/2009/07/physio.png" id="physio">
+			<img src="http://studentrnd.org/wp-content/uploads/2009/07/stratos.jpg" id="stratos">
+			<img src="http://studentrnd.org/wp-content/uploads/2009/07/blackberry.png" id="blackberry">
+			<img src="http://studentrnd.org/wp-content/uploads/2009/07/coinstar.jpg" id="coinstar">
+			<img src="http://studentrnd.org/wp-content/uploads/2009/07/swSponsor4wp_381_.jpg" id="startupweekend">
+			<img src="http://thinkspace.com/wp-content/uploads/2011/12/thinkspace-logo-transparent.png" id="thinkspace">
+			<img src="http://studentrnd.org/wp-content/uploads/2009/07/startupcity.png" id="startupcity">
+			<img src="http://studentrnd.org/wp-content/uploads/2009/07/t2k.gif" id="visiport">
+			<img src="http://www.htc.com/us/img/HTC_logo_tag.gif" id="htc">
 		</div>
 	</div>
 	<div class="span6">
-		<div class="box"><img src="http://codeday.org/img/biggestcodeday.jpg" /><h1>CodeDay</h1><p>CodeDay is an amazing 24-hour marathon where we hang out and code!</p><p><a href="http://codeday.org/" class="btn">Learn More</a></p></div>
-		<div class="box"><h1>Major Events</h1>
-			<table class="table table-striped"><tbody><tr><td><strong>Aug 4-5th</strong></td><td><a href="http://codeday.org/">CodeDay August</a></td></tr>
-				<tr><td><strong>August 25th</strong></td><td><a href="http://studentrndincubator.eventbrite.com">Demo Day!</a></td></tr>
-				<tr><td><strong>August 31st</strong></td><td>Summer Hours End</td></tr>
-			</tbody></table>
-			<p><h2>Other Events</h2><a href="http://meetup.com/StudentRND-Meetups" class="btn">Meetups</a> <a href="http://meetup.com/StudentRND-Community" class="btn">Community Events</a></p>
+		<div class="box">
+			<img src="http://codeday.org/img/biggestcodeday.jpg" />
+			<h1>CodeDay</h1>
+			<p>CodeDay is an amazing 24-hour marathon where we hang out and code!</p>
+			<p><a href="http://codeday.org/" class="btn">Learn More</a></p>
 		</div>
-		<div class="box"><h1>Presented By:</h1>
+		<div class="box">
+			<h1>Major Events</h1>
+			<table class="table table-striped">
+				<tbody>
+					<tr>
+						<td><strong>Aug 4-5th</strong></td>
+						<td><a href="http://codeday.org/">CodeDay August</a></td>
+					</tr>
+					<tr>
+						<td><strong>August 25th</strong></td>
+						<td><a href="http://studentrndincubator.eventbrite.com">Demo Day!</a></td>
+					</tr>
+					<tr>
+						<td><strong>August 31st</strong></td>
+						<td>Summer Hours End</td>
+					</tr>
+				</tbody>
+			</table>
+			<h2>Other Events</h2>
+			<p><a href="http://meetup.com/StudentRND-Meetups" class="btn">Meetups</a> <a href="http://meetup.com/StudentRND-Community" class="btn">Community Events</a></p>
+		</div>
+		<div class="box">
+			<h1>Presented By:</h1>
 			<a href="http://studentrnd.org/"><img src="http://studentrnd.org/images/srndlogotransparent.png"/></a>
-			<br/><h2>Follow us on <a href="http://facebook.com/studentrnd">Facebook</a> and <a href="http://twitter.com/studentrnd">Twitter</a>!</h2>
+			<h2>Follow us on <a href="http://facebook.com/studentrnd">Facebook</a> and <a href="http://twitter.com/studentrnd">Twitter</a>!</h2>
 		</div>
+		<?php
+		/*
+		//get tumblr posts
+		$xml = simplexml_load_file('http://blog.studentrnd.org/api/read');
+		$posts = $xml->xpath("/tumblr/posts/post[@type='regular']");
+
+		foreach($posts as $post) {
+			echo $post['id'];
+			echo $post['url-with-slug'];
+			echo $post->{'regular-title'};
+			echo $post->{'regular-body'};
+			echo date("jS D M, H:i",strtotime($post['date']));
+		}
+		*/
+
+		/*
+		//get tweets
+		$tweets = json_decode(file_get_contents('http://twitter.com/statuses/user_timeline.json?screen_name=StudentRND&count=10'));
+
+		var_dump($tweets);
+		*/
+		?>
 	</div>
 </div>
 <div id="fb-root"></div>
+
+
+
+
 <script>(function(d, s, id) {
 	var js, fjs = d.getElementsByTagName(s)[0];
 	if (d.getElementById(id)) return;
@@ -75,10 +126,10 @@
 						</tr>
 					</tbody>
 				</table> -->
+			</div>
 		</div>
 	</div>
-</div>
-<div class="modal-footer">
-	<a onclick="$('#directions').hide();" class="btn btn-primary">OK</a>
-</div>
+	<div class="modal-footer">
+		<a onclick="$('#directions').hide();" class="btn btn-primary">OK</a>
+	</div>
 </div>

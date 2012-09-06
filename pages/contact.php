@@ -6,22 +6,23 @@
 	</p>
 
 	<table class="table table-striped">
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Email</th>
+				<th>Phone</th>
+			</tr>
+		</thead>
 		<tbody>
 			<tr>
 				<td>Edward Jiang</td>
-				<td><a href="http://ohours.org/edjiang">Schedule</a></td>
+				<td>obama@whitehouse.gov</td>
+				<td>555-5555-55555-555555</td>
 			</tr>
 			<tr>
-				<td>Carter Rabasa</td>
-				<td><a href="http://ohours.org/carterrabasa">Schedule</a></td>
-			</tr>
-			<tr>
-				<td>Red Russak</td>
-				<td>TBA</td>
-			</tr>
-			<tr>
-				<td>Peter Chen</td>
-				<td>TBA</td>
+				<td>Adam Ryman</td>
+				<td>email</td>
+				<td>555-5555-55555-555555</td>
 			</tr>
 		</tbody>
 	</table>
