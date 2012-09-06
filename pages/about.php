@@ -8,22 +8,22 @@
 			<h3>Student Created</h3>
 			<ul id="projects">
 				<li><span class="name"><a href="http://store.studentrnd.org/products/plasma-speaker">Plasma Speaker</a></span>
-					<span class="info">Marshall Meng &#38; Matt Chapman 2011</span></li>
-				<li><span class="name"><a href="/about/robotic-pipe-organ">Robotic Pipe Organ</a></span> <span class="info">David Tyler 2011</span></li>
-				<li><span class="name">RepRap</span> <span class="info">Eric Yu 2011</span></li>
-				<li><span class="name">CNC Router</span> <span class="info">Nolan Miller 2011</span></li>
-				<li><span class="name">Statspad Baller</span> <span class="info">Adam Stephenson 2011</span></li>
+					<span class="info">Marshall Meng &#38; Matt Chapman, 2011</span></li>
+				<li><span class="name"><a href="/about/robotic-pipe-organ">Robotic Pipe Organ</a></span> <span class="info">David Tyler, 2011</span></li>
+				<li><span class="name">RepRap</span> <span class="info">Eric Yu, 2011</span></li>
+				<li><span class="name">CNC Router</span> <span class="info">Nolan Miller, 2011</span></li>
+				<li><span class="name">Statspad Baller</span> <span class="info">Adam Stephenson, 2011</span></li>
 				<li><span class="name">Surface Computer</span> <span class="info">2010</span></li>
 				<li><span class="name"><a href="http://wiki.studentrnd.org/3D_Printer">Makerbot Cupcake</a></span> <span class="info">2010</span></li>
-				<li><span class="name">Hoverboard</span> <span class="info">Charles Niu 2010</span></li>
+				<li><span class="name">Hoverboard</span> <span class="info">Charles Niu, 2010</span></li>
 			</ul>
 			<h3>CodeDay</h3>
 			<p>StudentRND hosts a 24-hour programming competition every few months called CodeDay.</p>
 			<p><a href="http://codeday.org/pastevents.php" class="btn" title="Past CodeDay Events" target="_BLANK">Check out past CodeDay events!</a></p>
 			<h2>Want to know more about us?</h2>
-			<p>Look at our <a href="http://blog.studentrnd.org">blog</a>.</p>
 			<p>We're on <a href="http://facebook.com/studentrnd">Facebook</a> and <a href="http://twitter.com/StudentRND">Twitter</a>!</p>
 			<p>Check out our <a href="http://wiki.studentrnd.org">online resources</a>.</p>
+			<p>Look at our <a href="http://blog.studentrnd.org">blog</a>.</p>
 		</div>
 	</div>
 </div>
