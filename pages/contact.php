@@ -6,22 +6,27 @@
 	</p>
 
 	<table class="table table-striped">
-		<tbody>
+		<thead>
+			<tr><th>Name</th> <th>Role</th> <th>Email</th> <th>Phone</th></tr>
+		</thead>
+		<tbody>	
+			<tr>
+				<td>General Contact</td>
+				<td>N/A</td>
+				<td>contact@studentrnd.org</td>
+				<td>425.780.7901 </td>
+			</tr>
 			<tr>
 				<td>Edward Jiang</td>
-				<td><a href="http://ohours.org/edjiang">Schedule</a></td>
+				<td>CEO</td>
+				<td>edj@studentrnd.org</td>
+				<td>425.780.7901 x1</td>
 			</tr>
 			<tr>
-				<td>Carter Rabasa</td>
-				<td><a href="http://ohours.org/carterrabasa">Schedule</a></td>
-			</tr>
-			<tr>
-				<td>Red Russak</td>
-				<td>TBA</td>
-			</tr>
-			<tr>
-				<td>Peter Chen</td>
-				<td>TBA</td>
+				<td>Adam Ryman</td>
+				<td>COO, General Operations</td>
+				<td>adam.ryman@studentrnd.org</td>
+				<td>425.780.7901 x2</td>
 			</tr>
 		</tbody>
 	</table>

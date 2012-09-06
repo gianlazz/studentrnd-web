@@ -24,14 +24,3 @@
 	</div>
 </div>
 
-
-<!-- <ul>
-	<li>(2010) Surface Computer</li>
-	<li>(2010) <a href="http://wiki.studentrnd.org/3D_Printer">Makerbot Cupcake</a></li>
-	<li>(2010) Hoverboard</li>
-	<li>(2011) Plasma Speaker</li>
-	<li>(2011) <a href="/about/robotic-pipe-organ">Robotic Pipe Organ</a></li>
-	<li>(2011) RepRap</li>
-	<li>(2011) CNC Router</li>
-	<li>(2011) Statspad Baller</li>
-</ul> -->
