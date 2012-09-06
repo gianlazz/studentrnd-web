@@ -42,8 +42,8 @@ $phone = "Tel: (425) 780-7901";
 
 
 if(!$openhours) {
-	// unset($hours);
-	$hours = "Not open outside summer.";
+	unset($hours);
+	// $hours = "Not open outside summer.";
 }
 
 set_include_path("./pages/");
