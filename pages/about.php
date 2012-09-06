@@ -23,7 +23,7 @@
 			<h2>Want to know more about us?</h2>
 			<p>Look at our <a href="http://blog.studentrnd.org">blog</a>.</p>
 			<p>We're on <a href="http://facebook.com/studentrnd">Facebook</a> and <a href="http://twitter.com/StudentRND">Twitter</a>!</p>
-			<p>Check out our <a href="http://wiki.studentrnd.org" class="broken_link">online resources</a>.</p>
+			<p>Check out our <a href="http://wiki.studentrnd.org">online resources</a>.</p>
 		</div>
 	</div>
 </div>
