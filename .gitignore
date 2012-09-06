@@ -1,3 +1,5 @@
 sftp-config.json
 /assets/css/.sass-cache
+*.swp
+*.swo
 .DS_Store
