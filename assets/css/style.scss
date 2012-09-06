@@ -194,15 +194,16 @@ br.clearfix {
 			img {
 				position:relative;
 				height:400px;
+				@include rounded(5px);
 			}
 			p {
 				position:relative;
-				bottom:26px + 5px;
+				bottom:30px + 5px;
 				// right:5px;
 				text-align:right;
 				background:rgba(255,255,255,0.69);
 
-				padding:0 5px;
+				padding:2px 5px;
 				font-size:12px;
 
 				// @include rounded(3px);
