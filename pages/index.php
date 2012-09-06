@@ -36,7 +36,7 @@ var_dump($tweets);
 			<img src="https://sphotos.xx.fbcdn.net/hphotos-prn1/41013_422690246331_5173310_n.jpg" />
 			<h1>StudentRND Incubator</h1>
 			<p>We know you're capable of amazing the world. We'll help you do that. Work with your friends to build amazing products over the course of the summer! </p>
-			<p><span class="btn disabled">Apply for Summer 2012</span> <a href="http://studentrndincubator.eventbrite.com/" class="btn">Attend Demo Day</a></p>
+			<p><span class="btn disabled">Apply for Summer 2012</span> <a href="http://studentrndincubator.eventbrite.com/" class="btn disabled">Attend Demo Day</a></p>
 		</div>
 		<div class="box" id="sponsors">
 			<h1>Sponsors</h1>
