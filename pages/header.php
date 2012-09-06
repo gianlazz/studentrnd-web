@@ -7,8 +7,6 @@
 	<link rel="image_src" href="http://studentrnd.org/images/cubes.gif" />
 	<!-- <script src="http://code.jquery.com/jquery-1.5.2.min.js"></script> -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
-	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="/jqueryui/css/jquery.ui.all.css"/>
 	<script src="/bootstrap/js/bootstrap.js"></script>
 </head>
 <body>
