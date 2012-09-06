@@ -1,9 +1,6 @@
 <div class="box">
 
-	<h1>YO, CONTACT US, FOO'</h1>
-	<p>
-		YO THERE'S LIKE, EDWARD, ADAM. AND FRIENDS. THEY'RE LIKE SUPER FRIENDS. THEY'RE EVERYWHERE. ALL OVER. EVERY DAY. ALL THEM. EMAIL THEM. REGULAR MAIL THEM. DO EVEYRTHING. HELLO GIT PUSH TEST 2
-	</p>
+	<h1>Contact Us</h1>
 
 	<table class="table table-striped">
 		<thead>
