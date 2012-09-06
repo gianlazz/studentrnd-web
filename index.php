@@ -41,9 +41,13 @@ $hours = "Mon-Fri 10-7p, Sat 12-7p";
 $phone = "Tel: (425) 780-7901";
 
 
+
+$doorsign = file_get_contents('http://oldwww.studentrnd.org/open.txt');
+$open = $doorsign = 'true' ? true : false;
+
 if(!$openhours) {
-	// unset($hours);
-	$hours = "Not open outside summer.";
+	unset($hours);
+	// $hours = "Not open outside summer.";
 }
 
 set_include_path("./pages/");
