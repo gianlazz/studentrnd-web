@@ -125,9 +125,15 @@ var_dump($tweets);
 				<p><?php echo $phone; ?></p>
 			</div>
 			<div class="span3">
-				<h2>Hours</h2>
-				<p><?php echo $hours; ?></p>
-				<p><i>Need after-hours access? Call us!</i></p>
+				<?php
+				if(isset($hours)) {
+					echo <<<TANG
+					<h2>Hours</h2>
+					<p>$hours</p>
+					<p><i>Need after-hours access? Call us!</i></p>
+TANG;
+				}
+?>
 
 				<!-- <table class="table table-striped">
 					<tbody>
