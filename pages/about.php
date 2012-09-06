@@ -7,7 +7,6 @@
 			<h2>Projects</h2>
 			<h3>Student Created</h3>
 			<ul id="projects">
-				<li><span class="name">Fixing Adam's CSS</span> <span class="info">Michael Tang, 2012</span></li>
 				<li><span class="name"><a href="http://store.studentrnd.org/products/plasma-speaker">Plasma Speaker</a></span>
 					<span class="info">Marshall Meng &#38; Matt Chapman 2011</span></li>
 				<li><span class="name"><a href="/about/robotic-pipe-organ">Robotic Pipe Organ</a></span> <span class="info">David Tyler 2011</span></li>
