@@ -8,7 +8,7 @@ $caption = "CubeView, a startup created during StudentRND's summer incubator";
 
 $donationLevels = array(
                         100 => "Fund a small event or meetup",
-			500 => "Pays for a week of StudentRND's space",
+						500 => "Pays for a week of StudentRND's space",
                         1000 => "Buys food for a CodeDay",
                         2500 => "Start a CodeDay in a new city!",
                         3000 => "Seed an Incubator Team"
@@ -30,8 +30,8 @@ TANG;
 				</div>
 
 
-				<div class="donate-text">
-				<!-- <div class="donate-text align-right"> -->
+				<!-- <div class="donate-text"> -->
+				<div class="donate-text align-right">
 					<h1>Support learning</h1>
 					<p>Help us give back to the community.  Each dollar you contribute helps us provide our high-quality programs and resources to enhance student learning.</p>
 					<p>
