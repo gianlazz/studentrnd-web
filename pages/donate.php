@@ -47,7 +47,6 @@ TANG;
 			</div>
 
 			<h2>See what your donation can help fund!</h2>
-			<p>Here's a list of things that can be done with theings </p>
 			<table class="table table-striped">
 				<thead>
 					<tr>
