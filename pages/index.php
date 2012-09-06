@@ -33,19 +33,10 @@ var_dump($tweets);
 <div class="row">
 	<div class="span6">
 		<div class="box">
-			<!-- <img src="https://sphotos.xx.fbcdn.net/hphotos-prn1/41013_422690246331_5173310_n.jpg" />
+			<img src="https://sphotos.xx.fbcdn.net/hphotos-prn1/41013_422690246331_5173310_n.jpg" />
 			<h1>StudentRND Incubator</h1>
 			<p>We know you're capable of amazing the world. We'll help you do that. Work with your friends to build amazing products over the course of the summer! </p>
-			<p><span class="btn disabled">Apply for Summer 2012</span> <a href="http://studentrndincubator.eventbrite.com/" class="btn">Attend Demo Day</a></p> -->
-			<h1>Weekly Events</h1>
-			<h2>CodeBlitz</h2>
-			<p>CodeBlitz is an opprotunity to hang out and code for three hours. It's like a CodeDay, but a lot shorter and more casual. Come join us and meet new people and learn how to code <b>every Saturday at 1pm-4pm</b>!</p>
-			<p><a href="http://www.meetup.com/StudentRND-Meetups/" class="btn">Check out the next event on MeetUp</a></p>
-			<h2>Electricity Is Fun (EIF)</h2>
-			<p>Join us for EIF <b>every Wednesday at 3pm-5pm</b> and create cool stuff using our electronics and fabrication labs.</p>
-			<p><a href="http://www.meetup.com/StudentRND-Meetups/" class="btn">Check out the next event on MeetUp</a></p>
-			<h2>Other Events</h2>
-			<p><a href="http://meetup.com/StudentRND-Meetups" class="btn">Meetups</a> <a href="http://meetup.com/StudentRND-Community" class="btn">Community Events</a></p>
+			<p><span class="btn disabled">Apply for Summer 2012</span> <a href="http://studentrndincubator.eventbrite.com/" class="btn">Attend Demo Day</a></p>
 		</div>
 		<div class="box" id="sponsors">
 			<h1>Sponsors</h1>
@@ -67,6 +58,17 @@ var_dump($tweets);
 			<h1>CodeDay</h1>
 			<p>CodeDay is an amazing 24-hour marathon where we hang out and code!</p>
 			<p><a href="http://codeday.org/" class="btn">Learn More</a></p>
+		</div>
+		<div class="box">
+			<h1>Weekly Events</h1>
+			<h2>CodeBlitz</h2>
+			<p>CodeBlitz is an opprotunity to hang out and code for three hours. It's like a CodeDay, but a lot shorter and more casual. Come join us and meet new people and learn how to code <b>every Saturday at 1pm-4pm</b>!</p>
+			<p><a href="http://www.meetup.com/StudentRND-Meetups/" class="btn">Check out the next event on MeetUp</a></p>
+			<h2>Electricity Is Fun (EIF)</h2>
+			<p>Join us for EIF <b>every Wednesday at 3pm-5pm</b> and create cool stuff using our electronics and fabrication labs.</p>
+			<p><a href="http://www.meetup.com/StudentRND-Meetups/" class="btn">Check out the next event on MeetUp</a></p>
+			<h2>Other Events</h2>
+			<p><a href="http://meetup.com/StudentRND-Meetups" class="btn">Meetups</a> <a href="http://meetup.com/StudentRND-Community" class="btn">Community Events</a></p>
 		</div>
 		<!-- <div class="box">
 			<h1>Major Events</h1>
