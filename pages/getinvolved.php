@@ -9,16 +9,13 @@
 	<div class="span6">
 		
 		<div class="box">
-			<h1>Come Hang Out</h1>
-			<p>At the StudentRND space, we provide resources, equipment, and tools for students to hang out and build cool stuff. Drop by our space and join in the community. </p>
-			<h2>Resources &amp; Equipment</h2>
-			<ul>
-				<li>Laser Cutter</li>
-				<li>3D Printer</li>
-				<li>Electronics Lab</li>
-				<li>Woodshop</li>
-				<li>Computer Lab &amp; Software</li>
-			</ul>
+			<h1>Meetups</h1>
+			<h2>CodeBlitz</h2>
+			<p>CodeBlitz is an opprotunity to hang out and code for three hours. It's like a CodeDay, but a lot shorter and more casual. Come join us and meet new people and learn how to code <b>every Saturday at 1pm-4pm</b>!</p>
+			<p><a href="http://codeday.org" class="btn">Check out the next event</a></p>
+			<h2>EIF</h2>
+			<p>Join us for EIF <b>every Wednesday at 3pm-5pm</b> and create cool stuff using our electronics and fabrication labs.</p>
+			<p><a href="http://codeday.org" class="btn">Check out the next event</a></p>
 			<h2>Address</h2>
 			<address>
 				<p class="address"><?php echo "<b>$addressname</b><br>$address1<br>$address2"; ?></p>
@@ -36,12 +33,6 @@
 		</div>
 		<div class="box">
 			<h1>Events</h1>
-			<h2>CodeBlitz</h2>
-			<p>descript</p>
-			<p><a href="http://codeday.org" class="btn">Check out the next event</a></p>
-			<h2>EIF</h2>
-			<p>EIF (Electronics Is Fun) is a fun electronics thing designed to get the most fun out of fun things, like electronics, which are fun.</p>
-			<p><a href="http://codeday.org" class="btn">Check out the next event</a></p>
 			<h2>CodeDay</h2>
 			<p>Every few months, we host CodeDay, a 24-hour marathon where we hang out and code! When you go to CodeDay, you'll pitch ideas, form teams, and build amazing things with your friends! </p>
 			<p><a href="http://codeday.org" class="btn">Check out the next event</a></p>
