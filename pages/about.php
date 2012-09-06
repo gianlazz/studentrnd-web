@@ -8,14 +8,14 @@
 			<h3>Student Created</h3>
 			<ul id="projects">
 				<li><span class="name"><a href="http://store.studentrnd.org/products/plasma-speaker">Plasma Speaker</a></span>
-					<span class="info">Marshall Meng &#38; Matt Chapman 2011</span></li>
-				<li><span class="name"><a href="/about/robotic-pipe-organ">Robotic Pipe Organ</a></span> <span class="info">David Tyler 2011</span></li>
-				<li><span class="name">RepRap</span> <span class="info">Eric Yu 2011</span></li>
-				<li><span class="name">CNC Router</span> <span class="info">Nolan Miller 2011</span></li>
-				<li><span class="name">Statspad Baller</span> <span class="info">Adam Stephenson 2011</span></li>
+					<span class="info">Marshall Meng &#38; Matt Chapman, 2011</span></li>
+				<li><span class="name"><a href="/about/robotic-pipe-organ">Robotic Pipe Organ</a></span> <span class="info">David Tyler, 2011</span></li>
+				<li><span class="name">RepRap</span> <span class="info">Eric Yu, 2011</span></li>
+				<li><span class="name">CNC Router</span> <span class="info">Nolan Miller, 2011</span></li>
+				<li><span class="name">Statspad Baller</span> <span class="info">Adam Stephenson, 2011</span></li>
 				<li><span class="name">Surface Computer</span> <span class="info">2010</span></li>
 				<li><span class="name"><a href="http://wiki.studentrnd.org/3D_Printer">Makerbot Cupcake</a></span> <span class="info">2010</span></li>
-				<li><span class="name">Hoverboard</span> <span class="info">Charles Niu 2010</span></li>
+				<li><span class="name">Hoverboard</span> <span class="info">Charles Niu, 2010</span></li>
 			</ul>
 			<h3>CodeDay</h3>
 			<p>StudentRND hosts a 24-hour programming competition every few months called CodeDay.</p>
