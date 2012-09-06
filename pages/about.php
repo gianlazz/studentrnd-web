@@ -19,7 +19,7 @@
 			</ul>
 			<h3>CodeDay</h3>
 			<p>StudentRND hosts a 24-hour programming competition every few months called CodeDay.</p>
-			<p><a href="http://codeday.org/pastevents.php" title="Past CodeDay Events" target="_BLANK">Check out past CodeDay events</a>.</p>
+			<p><a href="http://codeday.org/pastevents.php" class="btn" title="Past CodeDay Events" target="_BLANK">Check out past CodeDay events!</a></p>
 			<h2>Want to know more about us?</h2>
 			<p>Look at our <a href="http://blog.studentrnd.org">blog</a>.</p>
 			<p>We're on <a href="http://facebook.com/studentrnd">Facebook</a> and <a href="http://twitter.com/StudentRND">Twitter</a>!</p>

@@ -82,6 +82,25 @@ br.clearfix {
   display: block;
 }
 
+#index #sponsors #medtronic {
+  padding: 1em;
+}
+#index #sponsors #physio {
+  padding: 1em;
+}
+#index #sponsors #thinkspace {
+  padding: 1em;
+}
+#index #sponsors #startupcity {
+  padding: 1em;
+}
+#index #sponsors #visiport {
+  padding: 1em;
+}
+#index #sponsors #htc {
+  padding: 1em;
+}
+
 #about h1 {
   font-family: "Rokkitt", san-serif;
   font-weight: 700;

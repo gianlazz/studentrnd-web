@@ -7,27 +7,32 @@
 
 	<table class="table table-striped">
 		<thead>
-			<tr><th>Name</th> <th>Role</th> <th>Email</th> <th>Phone</th></tr>
-		</thead>
-		<tbody>	
 			<tr>
-				<td>General Contact</td>
-				<td>N/A</td>
-				<td>contact@studentrnd.org</td>
-				<td>425.780.7901 </td>
+				<th>Name</th>
+				<th>Role</th>
+				<th>Email</th>
+				<th>Phone</th>
 			</tr>
+		</thead>
+		<tbody>
 			<tr>
 				<td>Edward Jiang</td>
 				<td>CEO</td>
 				<td>edj@studentrnd.org</td>
-				<td>425.780.7901 x1</td>
+				<td>425.780.7901, ext. 1</td>
 			</tr>
 			<tr>
 				<td>Adam Ryman</td>
 				<td>COO, General Operations</td>
 				<td>adam.ryman@studentrnd.org</td>
-				<td>425.780.7901 x2</td>
+				<td>425.780.7901, ext. 2</td>
 			</tr>
+			<!-- <tr>
+				<td>General Contact</td>
+				<td>N/A</td>
+				<td>contact@studentrnd.org</td>
+				<td>425.780.7901 </td>
+			</tr> -->
 		</tbody>
 	</table>
 	<address>
