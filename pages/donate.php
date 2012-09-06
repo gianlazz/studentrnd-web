@@ -7,14 +7,11 @@ $caption = "CubeView, a startup created during StudentRND's summer incubator";
 //information about what donation levels can fund
 
 $donationLevels = array(
-                        50 => "Fund a small event! Dry Ice, 3D Printing",
-                        100 => "Fund a small project",
-                        250 => "Do a different thing!",
-                        500 => "Fund a large event! Super dry Ice, 4D Printing",
-                        1000 => "Fund a large project or a CodeDay event",
-                        1500 => "Buy Michael a new computer",
-                        2500 => "Do a very different thing!",
-                        3000 => "Start a brand new CodeDay in a different city!"
+                        100 => "Fund a small event or meetup",
+			500 => "Pays for a week of StudentRND's space",
+                        1000 => "Buys food for a CodeDay",
+                        2500 => "Start a CodeDay in a new city!",
+                        3000 => "Seed an Incubator Team"
                         );
 
 ?>
