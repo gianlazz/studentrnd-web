@@ -24,6 +24,11 @@ switch($_SERVER['REQUEST_URI']) {
 		$route = "donate.php";
 		$title = "Donate";
 		break;
+	case '/open/':
+	case '/open':
+		$route = "issomebodythere.php";
+		$title = "Are we open?";
+		break;
 	default:
 		header('Location: http://oldwww.studentrnd.org' . $_SERVER['REQUEST_URI']);
 		break;
