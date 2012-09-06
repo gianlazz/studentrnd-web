@@ -9,6 +9,7 @@
 		<thead>
 			<tr>
 				<th>Name</th>
+				<th>Role</th>
 				<th>Email</th>
 				<th>Phone</th>
 			</tr>
@@ -16,14 +17,22 @@
 		<tbody>
 			<tr>
 				<td>Edward Jiang</td>
-				<td>obama@whitehouse.gov</td>
-				<td>555-5555-55555-555555</td>
+				<td>CEO</td>
+				<td>edj@studentrnd.org</td>
+				<td>425.780.7901, ext. 1</td>
 			</tr>
 			<tr>
 				<td>Adam Ryman</td>
-				<td>email</td>
-				<td>555-5555-55555-555555</td>
+				<td>COO, General Operations</td>
+				<td>adam.ryman@studentrnd.org</td>
+				<td>425.780.7901, ext. 2</td>
 			</tr>
+			<!-- <tr>
+				<td>General Contact</td>
+				<td>N/A</td>
+				<td>contact@studentrnd.org</td>
+				<td>425.780.7901 </td>
+			</tr> -->
 		</tbody>
 	</table>
 	<address>

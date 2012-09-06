@@ -19,23 +19,12 @@
 			</ul>
 			<h3>CodeDay</h3>
 			<p>StudentRND hosts a 24-hour programming competition every few months called CodeDay.</p>
-			<p><a href="http://codeday.org/pastevents.php" title="Past CodeDay Events" target="_BLANK">Check out past CodeDay events</a>.</p>
+			<p><a href="http://codeday.org/pastevents.php" class="btn" title="Past CodeDay Events" target="_BLANK">Check out past CodeDay events!</a></p>
 			<h2>Want to know more about us?</h2>
 			<p>Look at our <a href="http://blog.studentrnd.org">blog</a>.</p>
 			<p>We're on <a href="http://facebook.com/studentrnd">Facebook</a> and <a href="http://twitter.com/StudentRND">Twitter</a>!</p>
-			<p>Check out our <a href="http://wiki.studentrnd.org" class="broken_link">online resources</a>.</p>
+			<p>Check out our <a href="http://wiki.studentrnd.org">online resources</a>.</p>
 		</div>
 	</div>
 </div>
 
-
-<!-- <ul>
-	<li>(2010) Surface Computer</li>
-	<li>(2010) <a href="http://wiki.studentrnd.org/3D_Printer">Makerbot Cupcake</a></li>
-	<li>(2010) Hoverboard</li>
-	<li>(2011) Plasma Speaker</li>
-	<li>(2011) <a href="/about/robotic-pipe-organ">Robotic Pipe Organ</a></li>
-	<li>(2011) RepRap</li>
-	<li>(2011) CNC Router</li>
-	<li>(2011) Statspad Baller</li>
-</ul> -->
