@@ -11,7 +11,7 @@ $donationLevels = array(
 			500 => "Pays for a week of StudentRND's space",
                         1000 => "Buys food for a CodeDay",
                         2500 => "Start a CodeDay in a new city!",
-                        3000 => "Seed an Incubator Team"
+                        5000 => "Seed an Incubator Team"
                         );
 
 ?>
