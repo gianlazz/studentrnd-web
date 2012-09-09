@@ -28,7 +28,6 @@
 					<li><a href="http://blog.studentrnd.org/">Blog</a></li>
 					<li<?php if($fname == "about") echo $active;?>><a href="/about/">About</a></li>
 					<li<?php if($fname == "getinvolved") echo $active;?>><a href="/getinvolved/">Get Involved</a></li>
-					<li><a href="http://blog.studentrnd.org/">Blog</a></li>
 					<li<?php if($fname == "contact") echo $active;?>><a href="/contact/">Contact Us</a></li>
 					<li<?php if($fname == "donate") echo $active;?>><a href="/donate/">Donate</a></li>
 				</ul>
