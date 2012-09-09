@@ -34,7 +34,7 @@ TANG;
 				<div class="donate-text align-right">
 					<h1>Support learning</h1>
 					<p>Help us give back to the community.  Each dollar you contribute helps us provide our high-quality programs and resources to enhance student learning.</p>
-					<p><a class="btn btn-success btn-large" title="Donate via PayPal">Donate Now <i class="icon-white icon-play-circle"></i></a></p>
+					<p><a href="https://www.stayclassy.org/checkout/donation?eid=20102" class="btn btn-success btn-large" title="Donate via PayPal">Donate Now <i class="icon-white icon-play-circle"></i></a></p>
 				</div>
 
 			</div>
@@ -56,7 +56,7 @@ TANG;
 				</tbody>
 			</table>
 
-			<p><a class="btn btn-success btn-large" title="Donate via PayPal">Donate Now <i class="icon-white icon-play-circle"></i></a></p>
+			<p><a href="https://www.stayclassy.org/checkout/donation?eid=20102" class="btn btn-success btn-large" title="Donate via PayPal">Donate Now <i class="icon-white icon-play-circle"></i></a></p>
 
 		</div>
 	</div>
