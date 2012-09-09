@@ -1,36 +1,34 @@
 <?php //Simple request router app
-switch($_SERVER['REQUEST_URI']) {
-	case '/':
+$edward = strtolower(trim($_SERVER['REQUEST_URI'], "/"));
+switch($edward) {
+	case '':
 		$route = "index.php";
 		$title = "Home";
 		break;
-	case '/getinvolved/':
-	case '/getinvolved':
+	case 'getinvolved':
 		$route = "getinvolved.php";
 		$title = "Get Involved";
 		break;
-	case '/about/':
-	case '/about':
+	case 'about':
 		$route = "about.php";
 		$title = "About";
 		break;
-	case '/contact/':
-	case '/contact':
+	case 'contact':
 		$route = "contact.php";
 		$title = "Contact Us";
 		break;
-	case '/donate/':
-	case '/donate':
+	case 'donate':
 		$route = "donate.php";
 		$title = "Donate";
 		break;
-	case '/open/':
-	case '/open':
+	case 'open':
 		$route = "issomebodythere.php";
 		$title = "Are we open?";
 		break;
 	default:
-		header('Location: http://oldwww.studentrnd.org' . $_SERVER['REQUEST_URI']);
+		$route = "404.php";
+		$title = "404";
+		// header('Location: http://oldwww.studentrnd.org' . $_SERVER['REQUEST_URI']);
 		break;
 }
 
