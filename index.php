@@ -26,9 +26,9 @@ switch($edward) {
 		$title = "Are we open?";
 		break;
 	default:
-		$route = "404.php";
-		$title = "404";
-		// header('Location: http://oldwww.studentrnd.org' . $_SERVER['REQUEST_URI']);
+		//$route = "404.php";
+		//$title = "404";
+		header('Location: http://oldwww.studentrnd.org' . $_SERVER['REQUEST_URI']);
 		break;
 }
 
