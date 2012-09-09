@@ -35,7 +35,7 @@ TANG;
 					<h1>Support learning</h1>
 					<p>Help us give back to the community.  Each dollar you contribute helps us provide our high-quality programs and resources to enhance student learning.</p>
 					<p>
-						<form id="donate" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+						<form id="donate" action="https://www.stayclassy.org/checkout/donation?eid=20102" method="post">
 							<input name="cmd" type="hidden" value="_s-xclick">
 							<input name="hosted_button_id" type="hidden" value="8275134">
 							<!-- <input alt="Donate" type="submit" class="btn btn-success btn-large" name="Donate" value="Donate Now!" title="Donate via PayPal"/> -->
@@ -63,7 +63,7 @@ TANG;
 				</tbody>
 			</table>
 
-			<form id="donate" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+			<form id="donate" action="https://www.stayclassy.org/checkout/donation?eid=20102" method="post">
 				<input name="cmd" type="hidden" value="_s-xclick">
 				<input name="hosted_button_id" type="hidden" value="8275134">
 				<!-- <input alt="Donate" type="submit" class="btn btn-success btn-large" name="Donate" value="Donate Now!" title="Donate via PayPal"/> -->
