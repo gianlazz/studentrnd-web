@@ -25,6 +25,7 @@
 			<div class="span8">
 				<ul class="nav nav-pills">
 					<li<?php if($fname == "index") echo $active;?>><a href="/">Home</a></li>
+					<li><a href="http://blog.studentrnd.org/">Blog</a></li>
 					<li<?php if($fname == "about") echo $active;?>><a href="/about/">About</a></li>
 					<li<?php if($fname == "getinvolved") echo $active;?>><a href="/getinvolved/">Get Involved</a></li>
 					<li><a href="http://blog.studentrnd.org/">Blog</a></li>
