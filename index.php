@@ -25,14 +25,16 @@ switch($edward) {
 		$route = "issomebodythere.php";
 		$title = "Are we open?";
 		break;
-	default:	
+	default:
 		//check if route is a filename (has characters, a dot ., and 3-4 more characters)
-		if(preg_match('/[^.]+\.[^.]{3,4}$/', $edward)) {
-			header('Location: http://oldwww.studentrnd.org' . $_SERVER['REQUEST_URI']);
-		} else {
-			$route = "404.php";
-			$title = "404";
-		}
+		// if(preg_match('/[^.]+\.[^.]{3,4}$/', $edward)) {
+		// 	header('Location: http://oldwww.studentrnd.org' . $_SERVER['REQUEST_URI']);
+		// } else {
+		// 	$route = "404.php";
+		// 	$title = "404";
+		// }
+
+		header('Location: http://oldwww.studentrnd.org' . $_SERVER['REQUEST_URI']);
 		break;
 }
 
