@@ -22,7 +22,7 @@ switch($strippeduri) {
 		$title = "Donate";
 		break;
 	case 'open':
-		$route = "issomebodythere.php";
+		$route = "areweopen.php";
 		$title = "Are we open?";
 		break;
 	default:
