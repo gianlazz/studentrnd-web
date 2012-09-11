@@ -1,6 +1,6 @@
 <?php //Simple request router app
-$edward = strtolower(trim($_SERVER['REQUEST_URI'], "/"));
-switch($edward) {
+$strippeduri = strtolower(trim($_SERVER['REQUEST_URI'], "/"));
+switch($strippeduri) {
 	case '':
 		$route = "index.php";
 		$title = "Home";
@@ -27,7 +27,7 @@ switch($edward) {
 		break;
 	default:
 		//check if route is a filename (has characters, a dot ., and 3-4 more characters)
-		// if(preg_match('/[^.]+\.[^.]{3,4}$/', $edward)) {
+		// if(preg_match('/[^.]+\.[^.]{3,4}$/', $strippeduri)) {
 		// 	header('Location: http://oldwww.studentrnd.org' . $_SERVER['REQUEST_URI']);
 		// } else {
 		// 	$route = "404.php";
