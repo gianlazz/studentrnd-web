@@ -5,31 +5,6 @@
 	<a href="./getinvolved/" class="btn btn-primary btn-large" style="text-decoration:none">Get Involved</a>&nbsp;&nbsp; <a href="#" onclick="javascript:$('#directions').show();">Directions<?php if(isset($hours)) {echo ' & Hours';} ?></a>
 </div>
 
-
-<?php
-/*
-//get tumblr posts
-$xml = simplexml_load_file('http://blog.studentrnd.org/api/read');
-$posts = $xml->xpath("/tumblr/posts/post[@type='regular']");
-
-foreach($posts as $post) {
-	echo $post['id'];
-	echo $post['url-with-slug'];
-	echo $post->{'regular-title'};
-	echo $post->{'regular-body'};
-	echo date("jS D M, H:i",strtotime($post['date']));
-}
-*/
-
-/*
-//get tweets
-$tweets = json_decode(file_get_contents('http://twitter.com/statuses/user_timeline.json?screen_name=StudentRND&count=10'));
-
-var_dump($tweets);
-*/
-?>
-
-
 <div class="row">
 	<div class="span6">
 		<div class="box">
