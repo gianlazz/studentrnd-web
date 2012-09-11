@@ -23,13 +23,13 @@ $donationLevels = array(
 			<div class="hero-unit">
 				<div class="donate-image">
 					<?php
-						echo <<<TANG
-						<img src="../img/$image">
-						<p id="caption">$caption</p>
-TANG;
+						echo '<img src="../img/' . $image . '">';
+						echo '<div id="description-text">';
+						echo '<p id="caption">' . $caption . '</p>';
 						if($photocredit != "") {
 							echo '<p id="credit">' . $photocredit . '</p>';
 						}
+						echo '</div>';
 					?>
 				</div>
 

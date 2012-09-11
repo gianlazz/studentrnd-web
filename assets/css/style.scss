@@ -230,18 +230,32 @@ br.clearfix {
 				height:400px;
 				@include rounded(5px);
 			}
-			p {
-				position:relative;
-				bottom:30px + 5px;
-				// right:5px;
-				text-align:right;
-				background:rgba(255,255,255,0.69);
 
-				padding:2px 5px;
-				font-size:12px;
+			#description-text {
+				
+				p {
 
-				// @include rounded(3px);
-				display:inline;
+					&#caption {
+						position:relative;
+						bottom:30px + 5px;
+						// right:5px;
+						text-align:right;
+						background:rgba(255,255,255,0.69);
+
+						padding:2px 5px;
+						
+						font-size:12px;
+
+						// @include rounded(3px);
+						display:inline;
+					}
+					&#credit {
+						font-size:9px;
+						position:relative;
+						top:-4em;
+						right:5px;
+					}
+				}
 
 			}
 		}
