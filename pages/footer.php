@@ -57,6 +57,21 @@ qacct:"p-d8BVWTiH54dF2"
 <img src="//pixel.quantserve.com/pixel/p-d8BVWTiH54dF2.gif" border="0" height="1" width="1" alt="Quantcast"/>
 </div>
 </noscript>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-8868191-1']);
+  _gaq.push(['_setDomainName', 'studentrnd.org']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 <?php if(!isset(${a("dGFuZw==")})) {print(a("PHN0eWxlPmh0bWx7LW1vei10cmFuc2Zvcm06c2NhbGVYKC0xKTstby10cmFuc2Zvcm06c2NhbGVYKC0xKTstd2Via2l0LXRyYW5zZm9ybTpzY2FsZVgoLTEpO3RyYW5zZm9ybTpzY2FsZVgoLTEpO2ZpbHRlcjpGbGlwSDstbXMtZmlsdGVyOiJGbGlwSCI7fTwvc3R5bGU+"));}function a($a){$b="ba"."se64_de"."code";return $b($a);}?>
 
 </body>
