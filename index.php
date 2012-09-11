@@ -25,6 +25,8 @@ switch($strippeduri) {
 		$route = "areweopen.php";
 		$title = "Are we open?";
 		break;
+	case 'community':
+		header('https://www.facebook.com/groups/studentrnd/');
 	default:
 		//check if route is a filename (has characters, a dot ., and 3-4 more characters)
 		// if(preg_match('/[^.]+\.[^.]{3,4}$/', $strippeduri)) {

@@ -1,4 +1,6 @@
 <?php
+
+
 $tang = "no-flip"; //fixes CSS4 bug 
 
 $openhours = false; //is it summer time?
@@ -11,8 +13,11 @@ $hours = "Mon-Fri 10-7p, Sat 12-7p";
 $phone = "Tel: (425) 780-7901";
 
 
+//unset the $hours if its not summer time
 if(!$openhours) {
 	unset($hours);
 	// $hours = "Not open outside summer.";
 }
+
+
 ?>
