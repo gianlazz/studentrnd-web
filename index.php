@@ -26,7 +26,7 @@ switch($strippeduri) {
 		$title = "Are we open?";
 		break;
 	case 'community':
-		header('https://www.facebook.com/groups/studentrnd/');
+		header('Location: https://www.facebook.com/groups/studentrnd/');
 		break;
 	default:
 		//check if route is a filename (has characters, a dot ., and 3-4 more characters)
