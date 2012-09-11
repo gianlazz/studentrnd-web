@@ -1,8 +1,9 @@
 <?php
 
 
-$image = "donatepage.jpg";
+$image = "cubeview.jpg";
 $caption = "CubeView, a startup created during StudentRND's summer incubator";
+$photocredit = "Photo &copy; 2012 Kyle Kesterson";
 
 //information about what donation levels can fund
 
@@ -24,8 +25,11 @@ $donationLevels = array(
 					<?php
 						echo <<<TANG
 						<img src="../img/$image">
-						<p>$caption</p>
+						<p id="caption">$caption</p>
 TANG;
+						if($photocredit != "") {
+							echo '<p id="credit">' . $photocredit . '</p>';
+						}
 					?>
 				</div>
 
