@@ -45,27 +45,6 @@
 			<h2>Other Events</h2>
 			<p><a href="http://meetup.com/StudentRND-Meetups" class="btn">Meetups</a> <a href="http://meetup.com/StudentRND-Community" class="btn">Community Events</a></p>
 		</div>
-		<!-- <div class="box">
-			<h1>Major Events</h1>
-			<table class="table table-striped">
-				<tbody>
-					<tr>
-						<td><strong>Aug 4-5th</strong></td>
-						<td><a href="http://codeday.org/">CodeDay August</a></td>
-					</tr>
-					<tr>
-						<td><strong>August 25th</strong></td>
-						<td><a href="http://studentrndincubator.eventbrite.com">Demo Day!</a></td>
-					</tr>
-					<tr>
-						<td><strong>August 31st</strong></td>
-						<td>Summer Hours End</td>
-					</tr>
-				</tbody>
-			</table>
-			<h2>Other Events</h2>
-			<p><a href="http://meetup.com/StudentRND-Meetups" class="btn">Meetups</a> <a href="http://meetup.com/StudentRND-Community" class="btn">Community Events</a></p>
-		</div> -->
 		<div class="box">
 			<h1>Presented By:</h1>
 			<a href="http://studentrnd.org/"><img src="http://studentrnd.org/images/srndlogotransparent.png"/></a>
@@ -109,19 +88,6 @@
 TANG;
 				}
 ?>
-
-				<!-- <table class="table table-striped">
-					<tbody>
-						<tr>
-							<td><strong>Monday-Friday</strong></td>
-							<td><strong>Saturday</strong></td>
-						</tr>
-						<tr>
-							<td>10-7</td>
-							<td>12-7</td>
-						</tr>
-					</tbody>
-				</table> -->
 			</div>
 		</div>
 	</div>

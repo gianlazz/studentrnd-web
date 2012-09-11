@@ -5,7 +5,6 @@
 	<link rel="stylesheet" href="/bootstrap/css/bootstrap.css"/>
 	<link rel="stylesheet" type="text/css" href="/assets/css/hellahotchickens.css"/>
 	<link rel="image_src" href="http://studentrnd.org/images/cubes.gif" />
-	<!-- <script src="http://code.jquery.com/jquery-1.5.2.min.js"></script> -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
 	<script src="/bootstrap/js/bootstrap.js"></script>
 </head>
@@ -37,7 +36,6 @@
 					<li><a href="http://facebook.com/studentrnd" title="Follow us on Facebook"><img src="../assets/img/facebook.png" alt="Facebook"></a></li>
 					<li><a href="http://twitter.com/StudentRND" title="Follow us on Twitter"><img src="../assets/img/twitter.png" alt="Twitter"></a></li>
 					<li><?php echo $phone; ?></li>
-					<!-- <li>OPEN!</li> -->
 				</ul>
 			</div>
 		</div>

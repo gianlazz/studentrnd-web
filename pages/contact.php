@@ -24,12 +24,6 @@
 				<td>adam.ryman@studentrnd.org</td>
 				<td>425.780.7901, ext. 2</td>
 			</tr>
-			<!-- <tr>
-				<td>General Contact</td>
-				<td>N/A</td>
-				<td>contact@studentrnd.org</td>
-				<td>425.780.7901 </td>
-			</tr> -->
 		</tbody>
 	</table>
 	<h2>Address</h2>
