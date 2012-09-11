@@ -62,9 +62,6 @@ a.broken_link {
 
 @mixin rounded($radius: 10px) {
 	border-radius: $radius;
-	-moz-border-radius: $radius;
-	-khtml-border-radius: $radius;
-	-webkit-border-radius: $radius;
 }
 @mixin inset {
 	@include rounded(5px);
@@ -179,9 +176,15 @@ br.clearfix {
 		padding:10px 30px;
 		font-weight:bold;
 	}
-	button i {
-		position:relative;
-		top:2px;
+	a {
+		&:link, &:visited, &:active {
+			text-decoration:none;
+		}
+
+		i {
+			position:relative;
+			top:2px;
+		}
 	}
 
 	.hero-unit {

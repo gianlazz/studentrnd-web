@@ -55,9 +55,6 @@ br.clearfix {
 
 .beveled {
   border-radius: 10px;
-  -moz-border-radius: 10px;
-  -khtml-border-radius: 10px;
-  -webkit-border-radius: 10px;
   margin: 10px;
 }
 
@@ -131,7 +128,10 @@ br.clearfix {
   padding: 10px 30px;
   font-weight: bold;
 }
-#donate button i {
+#donate a:link, #donate a:visited, #donate a:active {
+  text-decoration: none;
+}
+#donate a i {
   position: relative;
   top: 2px;
 }
@@ -147,9 +147,6 @@ br.clearfix {
   padding: 20px;
   margin: 60px;
   border-radius: 5px;
-  -moz-border-radius: 5px;
-  -khtml-border-radius: 5px;
-  -webkit-border-radius: 5px;
 }
 #donate .hero-unit .donate-text h1 {
   text-shadow: 0px 0px 30px #FFF;
@@ -170,9 +167,6 @@ br.clearfix {
   position: relative;
   height: 400px;
   border-radius: 5px;
-  -moz-border-radius: 5px;
-  -khtml-border-radius: 5px;
-  -webkit-border-radius: 5px;
 }
 #donate .hero-unit .donate-image p {
   position: relative;
