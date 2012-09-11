@@ -1,6 +1,6 @@
 <?php //Simple request router app
-$edward = strtolower(trim($_SERVER['REQUEST_URI'], "/"));
-switch($edward) {
+$strippeduri = strtolower(trim($_SERVER['REQUEST_URI'], "/"));
+switch($strippeduri) {
 	case '':
 		$route = "index.php";
 		$title = "Home";
@@ -22,12 +22,18 @@ switch($edward) {
 		$title = "Donate";
 		break;
 	case 'open':
-		$route = "issomebodythere.php";
+		$route = "areweopen.php";
 		$title = "Are we open?";
 		break;
 	default:
-		//$route = "404.php";
-		//$title = "404";
+		//check if route is a filename (has characters, a dot ., and 3-4 more characters)
+		// if(preg_match('/[^.]+\.[^.]{3,4}$/', $strippeduri)) {
+		// 	header('Location: http://oldwww.studentrnd.org' . $_SERVER['REQUEST_URI']);
+		// } else {
+		// 	$route = "404.php";
+		// 	$title = "404";
+		// }
+
 		header('Location: http://oldwww.studentrnd.org' . $_SERVER['REQUEST_URI']);
 		break;
 }
@@ -43,10 +49,6 @@ $address2 = "Bellevue, WA 98005";
 $hours = "Mon-Fri 10-7p, Sat 12-7p";
 $phone = "Tel: (425) 780-7901";
 
-
-
-$doorsign = file_get_contents('http://oldwww.studentrnd.org/open.txt');
-$open = $doorsign = 'true' ? true : false;
 
 if(!$openhours) {
 	unset($hours);

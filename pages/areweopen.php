@@ -1,3 +1,8 @@
+<?php
+$doorsign = file_get_contents('http://oldwww.studentrnd.org/open.txt');
+$open = $doorsign = 'true' ? true : false;
+?>
+
 <div class="row">
 	<div class="span12">
 		<div class="box">

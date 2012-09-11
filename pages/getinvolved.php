@@ -1,7 +1,7 @@
 <div class="row">
 	<div class="span12">
 		<div class="box">
-			<img src="http://studentrnd.org/wp-content/uploads/2009/05/GetInvolved-011.png"/>
+			<img src="/wp-content/uploads/2009/05/GetInvolved-011.png"/>
 		</div>
 	</div>
 </div>
