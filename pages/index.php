@@ -78,17 +78,17 @@
 				</address>
 				<p><?php echo $phone; ?></p>
 			</div>
-			<div class="span3">
 				<?php
 				if(isset($hours)) {
 					echo <<<TANG
+			<div class="span3">
 					<h2>Hours</h2>
 					<p>$hours</p>
 					<p><i>Need after-hours access? Call us!</i></p>
+			</div>
 TANG;
 				}
 ?>
-			</div>
 		</div>
 	</div>
 	<div class="modal-footer">
