@@ -37,6 +37,7 @@ switch($strippeduri) {
 		// 	$title = "404";
 		// }
 		header('Location: http://oldwww.studentrnd.org' . $_SERVER['REQUEST_URI']);
+		die();
 		break;
 }
 
