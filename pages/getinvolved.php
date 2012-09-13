@@ -28,7 +28,7 @@
 	<div class="span6">
 		<div class="box">
 			<h1>Follow Us</h1>
-			<p>We're on <a href="http://facebook.com/studentrnd">Facebook</a> and <a href="http://twitter.com/StudentRND">Twitter</a> Come talk with us. </p>
+			<p>We're on <a href="http://facebook.com/studentrnd">Facebook</a> and <a href="http://twitter.com/StudentRND">Twitter</a>. Come talk with us. </p>
 			<p>Or, join our <a href="http://eepurl.com/bt2pv">email list</a>!</p>
 		</div>
 		<div class="box">
