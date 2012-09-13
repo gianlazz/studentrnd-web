@@ -1,15 +1,15 @@
 <div class="hero-unit" style="background-color:transparent;">
 	<img src="http://studentrnd.org/images/header.png" style="float:left; margin:-80px 20px 20px -50px"/>
-	<h1>Let's Create!</h1>
-	<p>We're a community of students who love science and technology. </p>
+	<h1>Change the World.</h1>
+	<p>We build an ecosystem of students who help each other do amazing things. </p>
 	<a href="./getinvolved/" class="btn btn-primary btn-large" style="text-decoration:none">Get Involved</a>&nbsp;&nbsp; <a href="#" onclick="javascript:$('#directions').show();">Directions<?php if(isset($hours)) {echo ' & Hours';} ?></a>
 </div>
 
 <div class="row">
 	<div class="span6">
 		<div class="box">
-			<img src="https://sphotos.xx.fbcdn.net/hphotos-prn1/41013_422690246331_5173310_n.jpg" />
-			<h1>StudentRND Incubator</h1>
+			<img src="http://sphotos-b.xx.fbcdn.net/hphotos-snc7/309250_10150992470226332_944192564_n.jpg" />
+			<h1 style="font-size:40px">StudentRND Incubator</h1>
 			<p>We know you're capable of amazing the world. We'll help you do that. Work with your friends to build amazing products over the course of the summer! </p>
 			<p><span class="btn disabled">Apply for Summer 2012</span> <a href="http://studentrndincubator.eventbrite.com/" class="btn disabled">Attend Demo Day</a></p>
 		</div>
@@ -31,19 +31,8 @@
 		<div class="box">
 			<img src="http://codeday.org/img/biggestcodeday.jpg" />
 			<h1>CodeDay</h1>
-			<p>CodeDay is an amazing 24-hour marathon where we hang out and code!</p>
+			<p>Stop thinking about building the next big thing. Go and build it. Join us at CodeDay and pitch your idea, form a team, and build something amazing. All in 24 hours.</p>
 			<p><a href="http://codeday.org/" class="btn">Learn More</a></p>
-		</div>
-		<div class="box">
-			<h1>Weekly Events</h1>
-			<h2>CodeBlitz</h2>
-			<p>CodeBlitz is an opprotunity to hang out and code for three hours. It's like a CodeDay, but a lot shorter and more casual. Come join us and meet new people and learn how to code <b>every Saturday at 1pm-4pm</b>!</p>
-			<p><a href="http://www.meetup.com/StudentRND-Meetups/" class="btn">Check out the next event on MeetUp</a></p>
-			<h2>Electricity Is Fun (EIF)</h2>
-			<p>Join us for EIF <b>every Wednesday at 3pm-5pm</b> and create cool stuff using our electronics and fabrication labs.</p>
-			<p><a href="http://www.meetup.com/StudentRND-Meetups/" class="btn">Check out the next event on MeetUp</a></p>
-			<h2>Other Events</h2>
-			<p><a href="http://meetup.com/StudentRND-Meetups" class="btn">Meetups</a> <a href="http://meetup.com/StudentRND-Community" class="btn">Community Events</a></p>
 		</div>
 		<div class="box">
 			<h1>Presented By:</h1>
