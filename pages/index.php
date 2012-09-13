@@ -1,7 +1,7 @@
 <div class="hero-unit" style="background-color:transparent;">
 	<img src="http://studentrnd.org/images/header.png" style="float:left; margin:-80px 20px 20px -50px"/>
 	<h1 style="font-size:40px">Change the World.</h1>
-	<p>We build an ecosystem of students who help each other do amazing things. </p>
+	<p>We create an ecosystem of students who help each other do amazing things. </p>
 	<a href="./getinvolved/" class="btn btn-primary btn-large" style="text-decoration:none">Get Involved</a>&nbsp;&nbsp; <a href="#" onclick="javascript:$('#directions').show();">Directions<?php if(isset($hours)) {echo ' & Hours';} ?></a>
 </div>
 
@@ -10,8 +10,8 @@
 		<div class="box">
 			<img src="http://sphotos-b.xx.fbcdn.net/hphotos-snc7/309250_10150992470226332_944192564_n.jpg" />
 			<h1>StudentRND Incubator</h1>
-			<p>We know you're capable of amazing the world. We'll help you do that. Work with your friends to build amazing products over the course of the summer! </p>
-			<p><span class="btn disabled">Apply for Summer 2012</span> <a href="http://studentrndincubator.eventbrite.com/" class="btn disabled">Attend Demo Day</a></p>
+			<p>The StudentRND Incubator provides an opportunity for passionate, motivated student teams to focus on building something amazing during the summer. </p>
+			<p><span class="btn disabled">Apply for Summer 2012</span> <a href="http://www.geekwire.com/2012/meet-teams-student-rnd-summer-incubator/" class="btn">View Teams</a></p>
 		</div>
 		<div class="box" id="sponsors">
 			<h1>Sponsors</h1>
