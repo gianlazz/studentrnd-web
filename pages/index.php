@@ -1,7 +1,7 @@
 <div class="hero-unit" style="background-color:transparent;">
 	<img src="http://studentrnd.org/images/header.png" style="float:left; margin:-80px 20px 20px -50px"/>
-	<h1 style="font-size:40px">Change the World.</h1>
-	<p>We create an ecosystem of students who help each other do amazing things. </p>
+	<h1 style="font-size:40px">Let's Create!</h1>
+	<p>We get students to work on cool tech projects in their spare time. </p>
 	<a href="./getinvolved/" class="btn btn-primary btn-large" style="text-decoration:none">Get Involved</a>&nbsp;&nbsp; <a href="#" onclick="javascript:$('#directions').show();">Directions<?php if(isset($hours)) {echo ' & Hours';} ?></a>
 </div>
 
