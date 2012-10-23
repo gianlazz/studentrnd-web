@@ -41,10 +41,9 @@ switch($strippeduri) {
 		break;
 }
 
-// set_include_path("./pages/");
-$path = "pages/";
-include $path . "config.php";
-include $path . "header.php";
-include $path . $route;
-include $path . "footer.php";
+set_include_path("./pages/");
+include "config.php";
+include "header.php";
+include $route;
+include "footer.php";
 ?>
