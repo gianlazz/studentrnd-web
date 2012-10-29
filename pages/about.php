@@ -44,7 +44,7 @@
 
 			<h2>StudentRND in the News</h2>
 			<ul id="projects">
-				<li><span class="name"><a href="http://dailyuw.com/news/2012/oct/21/pitching-innovation/">10/2012: Pitching Innovation</a></span></li>
+				<li><span class="name"><a href="http://dailyuw.com/archive/2012/10/27/news/pitching-innovation">10/2012: Pitching Innovation</a></span></li>
 				<li><span class="name"><a href="http://www.geekwire.com/2012/nathan-myhrvold-completely-fine-failure-thinks/">10/2012: Nathan Myhrvold is completely fine with failure and thinks you should be, too</a></span></li>
 				<li><span class="name"><a href="http://www.bellevuereporter.com/business/169821696.html">9/2012: A think space for student scientists | StudentRND offers workshop for science, tech and engineering</a></span></li>
 				<li><span class="name"><a href="http://bellevue.komonews.com/news/business/778083-after-demo-day-studentrnd-prepares-grow-opportunities">8/2012: After Demo Day StudentRND prepares to grow opportunities</a></span></li>
