@@ -25,14 +25,23 @@
     <meta name="text:Disqus Shortname" content="" />
 
 
-    <link rel="image_src" href="http://studentrnd.org/images/cubes.gif" />
     <link rel="stylesheet" href="http://studentrnd.org/bootstrap/css/bootstrap.css"/>
     <link rel="stylesheet" type="text/css" href="http://studentrnd.org/assets/css/hellahotchickens.css"/>
 
     <style type="text/css" media="screen">
-    /* Lightweight Theme by Artur Kim (http://arturkim.com) for Tumblr | version 1.1 */
+    /* StudentRND theme by Michael Tang */
 
-    .post {
+    .post .post-content * {
+        font-size: 1.05em;
+        line-height: 1.6em;
+    }
+    .post .post-content h1 {
+        font-size: 2em;
+        margin-bottom: 0.25em;
+    }
+    .post .post-content h3 {
+        font-size: 1.25em;
+        margin-bottom: 0.25em;
     }
     .post img {
         padding:0.5em;
@@ -59,7 +68,13 @@
         color:#C5C5C5;
     }
 
-    
+    .post.box {
+        margin-bottom:0;
+    }
+    .post-footer {
+        margin:5px 15px 20px;
+    }
+
 
     {CustomCSS}
     </style>
@@ -182,7 +197,7 @@
 
                 </div><!-- post-content -->
                 <div class="post-meta">
-                
+
 
 
                 {block:IfDisqusShortname}
@@ -222,13 +237,17 @@
 
 
             {block:IfDisqusShortname}{block:Permalink}
-                <div id="disqus_thread"></div>
+                <a name="disqus_thread"></a>
+                <div id="disqus_thread" class="box"></div>
                 <script type="text/javascript" src="http://disqus.com/forums/{text:Disqus Shortname}/embed.js"></script>
                 <noscript><a href="http://{text:Disqus Shortname}.disqus.com/?url=ref">View the discussion thread.</a></noscript>
             {/block:Permalink}{/block:IfDisqusShortname}
 
 
-            {block:PostNotes}<div id="post-notes">{PostNotes}</div>{/block:PostNotes}
+            {block:PostNotes}
+                <a name="notes"></a>
+                <div id="post-notes" class="box">{PostNotes}</div>
+            {/block:PostNotes}
         {/block:Posts}
 
 
@@ -248,12 +267,20 @@
             </div>
             <div class="span4 sidebar">
                 {block:IfShowAboutWidget}
-                <div id="about" class="widget">
+                <div id="about" class="widget box">
                     <h3>About</h3>
-                    <a href="http://www.tumblr.com/follow/{Name}"><img src="{PortraitURL-64}" alt="portrait" /></a>
+                    <img src="http://studentrnd.org/images/srndlogotransparent.png" alt="StudentRND" />
                     {block:Description}<div class="description"><p>{Description} Follow us on <a href="http://facebook.com/studentrnd">Facebook</a> and <a href="http://twitter.com/studentrnd">Twitter</a>.</p></div>{/block:Description}
                 </div>
                 {/block:IfShowAboutWidget}
+                <div id="about" class="widget box">
+                    <h3>Sponsors</h3>
+                        <p><img src="http://studentrnd.org/wp-content/uploads/2009/07/medtronic.png" id="medtronic"><br/><br/>
+                        <img src="http://studentrnd.org/wp-content/uploads/2009/07/stratos.jpg" id="stratos"><br/><br/>
+                        <img src="http://studentrnd.org/wp-content/uploads/2009/07/blackberry.png" id="blackberry">
+                        <img src="http://studentrnd.org/wp-content/uploads/2009/07/coinstar.jpg" id="coinstar">
+                        <img src="http://studentrnd.org/wp-content/uploads/2009/07/swSponsor4wp_381_.jpg" id="startupweekend">
+                            </div>
                 {block:Twitter}
                 <div id="latest-tweets" class="widget">
                     <h3>Latest Tweets <a href="http://twitter.com/{TwitterUsername}">(follow)</a></h3>
@@ -264,8 +291,8 @@
                 function recent_tweets(data) {
                     for (i=0; i<data.length; i++) {
                         if (i<{text:Number of Tweets}) {
-                            document.getElementById("tweets").innerHTML = 
-                            document.getElementById("tweets").innerHTML + 
+                            document.getElementById("tweets").innerHTML =
+                            document.getElementById("tweets").innerHTML +
                             '<li class="tweet">' + data[i].text + '</li>';
                         }
                     }
