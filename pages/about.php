@@ -44,7 +44,7 @@
 
 			<h2>StudentRND in the News</h2>
 			<ul id="projects">
-				<li><span class="name"><a href="High tech high schoolers get hands on at StudentRND">11/2012: High tech high schoolers get hands on at StudentRND</a></span></li>
+				<li><span class="name"><a href="http://mynorthwest.com/11/2118897/High-tech-high-schoolers-get-hands-on-at-StudentRND">11/2012: High tech high schoolers get hands on at StudentRND</a></span></li>
 				<li><span class="name"><a href="http://dailyuw.com/archive/2012/10/27/news/pitching-innovation">10/2012: Pitching Innovation</a></span></li>
 				<li><span class="name"><a href="http://www.geekwire.com/2012/nathan-myhrvold-completely-fine-failure-thinks/">10/2012: Nathan Myhrvold is completely fine with failure and thinks you should be, too</a></span></li>
 				<li><span class="name"><a href="http://www.bellevuereporter.com/business/169821696.html">9/2012: A think space for student scientists | StudentRND offers workshop for science, tech and engineering</a></span></li>
@@ -60,6 +60,7 @@
 				<li><span class="name"><a href="http://techcrunch.com/2011/08/19/kickstarter-project-empowers-students-plays-the-mario-theme-with-plasma/">8/2011: Kickstarter Project Empowers Students, Plays The Mario Theme With Plasma</a></span></li>
 				<li><span class="name"><a href="http://phys.org/news/2011-08-pledgers-rad-cool-plasma-speakers.html">8/2011: Pledgers step up for plasma speakers</a></span></li>
 				<li><span class="name"><a href="http://www.bellevuereporter.com/community/99587334.html">7/2010: Students set up shop to inspire others to explore science, technology</a></span></li>
+				<li><span class="name"><a href="http://www.king5.com/news/local/Chase-Facebook-Charity-82311332.html">1/2010: $1 million on the line in Chase's Facebook charity contest</a></span></li>
 				<li><span class="name"><a href="http://www.issaquahreporter.com/news/52088152.html">7/2009: Teenagers launch technology non-profit</a></span></li>
 			</ul>
 		</div>
