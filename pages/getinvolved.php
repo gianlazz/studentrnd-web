@@ -14,7 +14,7 @@
 			<p>CodeBlitz is an opportunity to hang out and code for three hours. It's like a CodeDay, but a lot shorter and more casual. Come join us and meet new people and learn how to code <b>every Saturday at 1pm-4pm</b>!</p>
 			<p><a href="http://www.meetup.com/StudentRND-Meetups/" class="btn">Check out the next event</a></p>
 			<h2>EIF</h2>
-			<p>Join us for EIF <b>every Wednesday at 3pm-5pm</b> and create cool stuff using our electronics and fabrication labs.</p>
+			<p>Join us for EIF <b>every Saturday 1-4pm</b> and create cool stuff using our electronics and fabrication labs.</p>
 			<p><a href="http://www.meetup.com/StudentRND-Meetups/" class="btn">Check out the next event</a></p>
 			<h2>Address</h2>
 			<address>
