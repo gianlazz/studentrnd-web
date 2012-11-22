@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>{block:SearchPage}Search results for: {SearchQuery} | {/block:SearchPage}{block:IndexPage}{Title}{/block:IndexPage}{block:PostSummary}{PostSummary}{/block:PostSummary}</title>
+    <title>{block:SearchPage}Search results for: {SearchQuery} | {/block:SearchPage}{block:IndexPage}{Title}{/block:IndexPage}{block:PostSummary}{PostSummary} - {Title}{/block:PostSummary}</title>
     {block:Description}<meta name="description" content="{MetaDescription}" />{/block:Description}
     <!-- <link rel="shortcut icon" href="{Favicon}" /> -->
     <link rel="apple-touch-icon" href="{PortraitURL-128}"/>
@@ -23,6 +23,18 @@
     <meta name="text:Number of Tweets" content="10"/>
     <meta name="text:Google Analytics ID" content="" />
     <meta name="text:Disqus Shortname" content="" />
+    <meta property="fb:admins" content="586603902" />
+    <meta property="og:site_name" content="{Title}">
+    <meta property="og:title" content="{Title}{block:PostSummary} &mdash; {PostSummary}{/block:PostSummary}{block:SearchPage} &mdash; Search results for {SearchQuery}{/block:SearchPage}">
+    <meta property="og:image" content="{PortraitURL-128}">
+    {block:IndexPage} 
+    <meta property="og:type" content="blog">
+    <meta property="og:description" content="{MetaDescription}">
+    {/block:IndexPage}      
+    {block:PermalinkPage}
+    <meta property="og:type" content="article">
+    <meta property="og:description" content="{block:PostSummary}{PostSummary}{/block:PostSummary}">
+    {/block:PermalinkPage}
 
 
     <link rel="stylesheet" href="http://studentrnd.org/bootstrap/css/bootstrap.css"/>
@@ -127,6 +139,7 @@
                 <div class="post-content">
                 {block:Text}
                     {block:Title}<h1><a href="{Permalink}">{Title}</a></h1>{/block:Title}
+                    {block:PermalinkPage}<div class="facebook-button"><fb:like layout="standard" show_faces="false" width="450" action="like" colorscheme="light"></fb:like></div>{/block:PermalinkPage}
                     {Body}
                 {/block:Text}
 
@@ -272,14 +285,14 @@
                     {block:Description}<div class="description"><p>{Description} Follow us on <a href="http://facebook.com/studentrnd">Facebook</a> and <a href="http://twitter.com/studentrnd">Twitter</a>.</p></div>{/block:Description}
                 </div>
                 {/block:IfShowAboutWidget}
-                <div id="about" class="widget box">
+                <div id="sponsors" class="widget box">
                     <h3>Sponsors</h3>
-                        <p><img src="http://studentrnd.org/wp-content/uploads/2009/07/medtronic.png" id="medtronic"><br/><br/>
-                        <img src="http://studentrnd.org/wp-content/uploads/2009/07/stratos.jpg" id="stratos"><br/><br/>
-                        <img src="http://studentrnd.org/wp-content/uploads/2009/07/blackberry.png" id="blackberry">
-                        <img src="http://studentrnd.org/wp-content/uploads/2009/07/coinstar.jpg" id="coinstar">
-                        <img src="http://studentrnd.org/wp-content/uploads/2009/07/swSponsor4wp_381_.jpg" id="startupweekend">
-                            </div>
+                    <p><img src="http://studentrnd.org/wp-content/uploads/2009/07/medtronic.png" id="medtronic"><br/><br/>
+                    <img src="http://studentrnd.org/wp-content/uploads/2009/07/stratos.jpg" id="stratos"><br/><br/>
+                    <img src="http://studentrnd.org/wp-content/uploads/2009/07/blackberry.png" id="blackberry">
+                    <img src="http://studentrnd.org/wp-content/uploads/2009/07/coinstar.jpg" id="coinstar">
+                    <img src="http://studentrnd.org/wp-content/uploads/2009/07/swSponsor4wp_381_.jpg" id="startupweekend">
+                </div>
                 {block:Twitter}
                 <div id="latest-tweets" class="widget">
                     <h3>Latest Tweets <a href="http://twitter.com/{TwitterUsername}">(follow)</a></h3>
@@ -322,17 +335,7 @@
 
 {block:Twitter}<script type="text/javascript" src="/tweets.js"></script>{/block:Twitter}
 {block:IfShowShareThisPostLinks}{block:PermalinkPage}
-    <div id="fb-root"></div>
-    <script>
-        window.fbAsyncInit = function() {
-            FB.init({appId: 'your app id', status: true, cookie: true, xfbml: true});
-        };
-        (function() {
-            var e = document.createElement('script'); e.async = true;
-            e.src = document.location.protocol + '//connect.facebook.net/en_US/all.js';
-            document.getElementById('fb-root').appendChild(e);
-        }());
-    </script>
+    <div class="fb-like" data-send="false" data-layout="button_count" data-width="100" data-show-faces="true"></div>
 {/block:PermalinkPage}{/block:IfShowShareThisPostLinks}
 
 {block:IfDisqusShortname}
@@ -365,6 +368,13 @@
 {/block:IfShowStuffILikeWidget}
 
 {block:IfGoogleAnalyticsID}<script type="text/javascript">var gaJsHost=(("https:"==document.location.protocol)?"https://ssl.":"http://www.");document.write(unescape("%3Cscript src='"+gaJsHost+"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</script><script type="text/javascript">try{var pageTracker=_gat._getTracker("{text:Google Analytics ID}");pageTracker._trackPageview()}catch(err){}</script>{block:IfGoogleAnalyticsID}
-
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=314739795245880";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 </body>
 </html>
