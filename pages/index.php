@@ -29,7 +29,7 @@
 	</div>
 	<div class="span6">
 		<div class="box">
-			<img src="http://codeday.org/img/biggestcodeday.jpg" />
+			<img src="http://studentrnd.org/assets/img/biggestcodeday.jpg" />
 			<h1>CodeDay</h1>
 			<p>Stop thinking about building the next big thing. Go and build it. Join us at CodeDay and pitch your idea, form a team, and build something amazing. All in 24 hours.</p>
 			<p><a href="http://codeday.org/" class="btn">Learn More</a></p>
