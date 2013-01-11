@@ -18,13 +18,12 @@
 			<img src="http://studentrnd.org/wp-content/uploads/2009/07/medtronic.png" id="medtronic">
 			<img src="http://studentrnd.org/wp-content/uploads/2009/07/physio.png" id="physio">
 			<img src="http://studentrnd.org/wp-content/uploads/2009/07/stratos.jpg" id="stratos">
+			<img src="http://i.imgur.com/Sntxx.png" id="splunk">
 			<img src="http://studentrnd.org/wp-content/uploads/2009/07/blackberry.png" id="blackberry">
 			<img src="http://studentrnd.org/wp-content/uploads/2009/07/coinstar.jpg" id="coinstar">
 			<img src="http://studentrnd.org/wp-content/uploads/2009/07/swSponsor4wp_381_.jpg" id="startupweekend">
-			<img src="http://thinkspace.com/wp-content/uploads/2011/12/thinkspace-logo-transparent.png" id="thinkspace">
 			<img src="http://studentrnd.org/wp-content/uploads/2009/07/startupcity.png" id="startupcity">
 			<img src="http://studentrnd.org/wp-content/uploads/2009/07/t2k.gif" id="visiport">
-			<img src="http://www.htc.com/us/img/HTC_logo_tag.gif" id="htc">
 		</div>
 	</div>
 	<div class="span6">
