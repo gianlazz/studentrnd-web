@@ -44,6 +44,8 @@
 
 			<h2>StudentRND in the News</h2>
 			<ul id="projects">
+				<li><span class="name"><a href="http://www.geekwire.com/2013/picklestyle-ultimate-gangnam-style-parody/">2/2013: Picklestyle, the ultimate Gangnam Style Parody</a></span></li>
+				<li><span class="name"><a href="http://techcrunch.com/2013/01/18/the-weekly-good-the-problems-of-today-will-be-solved-by-the-minds-of-tomorrow/">1/2013: The Problems Of Today Will Be Solved By The Minds Of Tomorrow</a></span></li>
 				<li><span class="name"><a href="http://mynorthwest.com/11/2118897/High-tech-high-schoolers-get-hands-on-at-StudentRND">11/2012: High tech high schoolers get hands on at StudentRND</a></span></li>
 				<li><span class="name"><a href="http://dailyuw.com/archive/2012/10/27/news/pitching-innovation">10/2012: Pitching Innovation</a></span></li>
 				<li><span class="name"><a href="http://www.geekwire.com/2012/nathan-myhrvold-completely-fine-failure-thinks/">10/2012: Nathan Myhrvold is completely fine with failure and thinks you should be, too</a></span></li>
