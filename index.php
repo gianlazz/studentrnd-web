@@ -21,6 +21,10 @@ switch($strippeduri) {
 		$route = "donate.php";
 		$title = "Donate";
 		break;
+	case 'careers':
+		$route = "careers.php";
+		$title = "Careers";
+		break;
 	case 'open':
 		$route = "areweopen.php";
 		$title = "Are we open?";

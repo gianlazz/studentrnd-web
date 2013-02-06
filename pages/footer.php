@@ -6,7 +6,7 @@
         echo "| Hours: $hours ";
     }
     echo"| $phone";
-    ?></p>
+    ?> | <a href="/careers/">Careers</a></p>
 </footer>
 </div>
 </div>
