@@ -9,9 +9,9 @@
 	<div class="span6">
 		<div class="box">
 			<img src="http://sphotos-b.xx.fbcdn.net/hphotos-snc7/309250_10150992470226332_944192564_n.jpg" />
-			<h1>StudentRND Incubator</h1>
-			<p>The StudentRND Incubator provides an opportunity for passionate, motivated student teams to focus on building something amazing during the summer. </p>
-			<p><span class="btn disabled">Apply for Summer 2012</span> <a href="http://www.geekwire.com/2012/meet-teams-student-rnd-summer-incubator/" class="btn">View Teams</a></p>
+			<h1>StudentRND Labs</h1>
+			<p>StudentRND Labs provides an opportunity for passionate, motivated student teams to focus on building something amazing during the summer. </p>
+			<p><a href="http://labs.studentrnd.org/" class="btn">Apply for Summer 2013</span> <a href="http://www.geekwire.com/2012/meet-teams-student-rnd-summer-incubator/" class="btn">View Teams from 2012</a></p>
 		</div>
 		<div class="box" id="sponsors">
 			<h1>Sponsors</h1>
