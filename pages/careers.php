@@ -22,7 +22,9 @@
 			<table class="table table-striped"><tbody><tr><td><a href="https://docs.google.com/forms/d/1YerIRWcCKPGfO0dVRTIySbWHCGcy7_UMwnpgazueSS8/viewform">Marketing Intern</a></td></tr>
 			<tr><td><a href="https://docs.google.com/forms/d/1SFtkMg6FPDVbpqNx16Bw59B_oWlNUMlsDKPtlFIpHfE/viewform">CodeDay Management Intern</a></td></tr>
 			<tr><td><a href="https://docs.google.com/forms/d/164JshUvS-_YWnY31yvDOXbpmWJiQ-wx8AFEt0w1cMkU/viewform">Sponsorships Intern</a></td></tr>
-			<tr><td><a href="https://docs.google.com/forms/d/1v9vjKL1RWiU0RF8a_g_fku3-BPghn3tVj30KvzagKVQ/viewform">Webmaster</a></td></tr></tbody></table>
+			<tr><td><a href="https://docs.google.com/forms/d/1v9vjKL1RWiU0RF8a_g_fku3-BPghn3tVj30KvzagKVQ/viewform">Webmaster</a></td></tr>
+			<tr><td><a href="https://docs.google.com/forms/d/1HEBk_jDEdJHsOJjqtQ7LYHq4Ro6TUpNydfnqEV9thtc/viewform">Intern</a></td></tr></tbody></table>
+			<p>If you have a resume, you do not have to submit the form. Instead, please email your resume to careers@studentrnd.org, with how much time you're willing to work. </p>
 		</div>
 	</div>
 </div>

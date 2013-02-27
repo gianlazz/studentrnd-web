@@ -21,6 +21,8 @@
 			<h2>Projects</h2>
 			<h3>Notable Projects from StudentRND</h3>
 			<ul id="projects">
+				<li><span class="name"><a href="https://play.google.com/store/apps/details?id=mohammad.adib.sidebar">Sidebar</a></span><span class="info">Mohammad Adib, 2013</span></li>
+				<li><span class="name"><a href="http://www.kickstarter.com/projects/excelphysics/apoc-mini-radiation-detector">APOC Mini Radiation Detector</a></span><span class="info">David Stoyanov, 2012</span></li>
 				<li><span class="name"><a href="http://facebook.com/ReisAudio">Reis Audio</a></span><span class="info">Andrew Nguyen, 2012</span></li>
 				<li><span class="name"><a href="http://firedove.co">Firedove</a></span><span class="info">Jack Kim, 2012</span></li>
 				<li><span class="name"><a href="http://www.geekwire.com/2012/meet-teams-student-rnd-summer-incubator/">StudentRND Incubator Teams</a></span><span class="info">2012</span></li>
@@ -44,6 +46,9 @@
 
 			<h2>StudentRND in the News</h2>
 			<ul id="projects">
+				<li><span class="name"><a href="http://www.geekwire.com/2013/studentrnd-members-launch-kickstarter-radiation-detector-raise-13k-week/">2/2013: StudentRND members launch Kickstarter for radiation detector, raise $13K in one week</a></span></li>
+				<li><span class="name"><a href="http://www.king5.com/news/Students-in-code-heaven-at-Code-Day-193177871.html">2/2013: Students in code heaven at 'Code Day'</a></span></li>
+				<li><span class="name"><a href="http://blogs.splunk.com/2013/02/19/studentrnds-1st-code-day-sf-success/">2/2013: StudentRND's 1st CodeDay SF = Success!</a></span></li>
 				<li><span class="name"><a href="http://www.geekwire.com/2013/picklestyle-ultimate-gangnam-style-parody/">2/2013: Picklestyle, the ultimate Gangnam Style Parody</a></span></li>
 				<li><span class="name"><a href="http://techcrunch.com/2013/01/18/the-weekly-good-the-problems-of-today-will-be-solved-by-the-minds-of-tomorrow/">1/2013: The Problems Of Today Will Be Solved By The Minds Of Tomorrow</a></span></li>
 				<li><span class="name"><a href="http://mynorthwest.com/11/2118897/High-tech-high-schoolers-get-hands-on-at-StudentRND">11/2012: High tech high schoolers get hands on at StudentRND</a></span></li>
