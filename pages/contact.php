@@ -36,6 +36,12 @@
 				<td>leo.lazzarini@studentrnd.org</td>
 				<td></td>
 			</tr>
+			<tr>
+				<td>Tyler Menezes</td>
+				<td>San Francisco Commissioner</td>
+				<td>tyler.menezes@studentrnd.org</td>
+				<td></td>
+			</tr>
 		</tbody>
 	</table>
 	<h2>Address</h2>
