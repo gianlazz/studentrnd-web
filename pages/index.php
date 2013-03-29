@@ -1,17 +1,23 @@
 <div class="hero-unit" style="background-color:transparent;">
-	<img src="http://studentrnd.org/images/header.png" style="float:left; margin:-80px 20px 20px -50px"/>
-	<h1 style="font-size:40px">Let's Create!</h1>
-	<p>We get students to work on cool tech projects in their spare time. </p>
-	<a href="./getinvolved/" class="btn btn-primary btn-large" style="text-decoration:none">Get Involved</a>&nbsp;&nbsp; <a href="#" onclick="javascript:$('#directions').show();">Directions<?php if(isset($hours)) {echo ' & Hours';} ?></a>
+	<img src="/img/header.png" style="float:left; margin:-60px 20px 20px -50px"/>
+	<h1 style="font-size:40px">The Workspace!</h1>
+	<p>Come check us out and join us in utilizing our public space, tools and helpful community to build amazing stuff! <br><br> Check us out: <br></p>
+	<a href="#" onclick="javascript:$('#directions').show();"> 1405 132nd Ave NE #3, Bellevue, WA 98005<?php if(isset($hours)) {echo ' & Hours';} ?></a><br><br><a href="./getinvolved/" class="btn btn-primary btn-large" style="text-decoration:none">Get Involved</a>&nbsp;&nbsp;
 </div>
 
 <div class="row">
 	<div class="span6">
 		<div class="box">
-			<img src="http://sphotos-b.xx.fbcdn.net/hphotos-snc7/309250_10150992470226332_944192564_n.jpg" />
-			<h1>StudentRND Labs</h1>
-			<p>StudentRND Labs provides an opportunity for passionate, motivated student teams to focus on building something amazing during the summer. </p>
-			<p><a href="http://labs.studentrnd.org/" class="btn">Apply for Summer 2013</span> <a href="http://www.geekwire.com/2012/meet-teams-student-rnd-summer-incubator/" class="btn">View Teams from 2012</a></p>
+			<img src="/img/workspacegarage.jpg" />
+			<h1><center>The Workspace</center></h1>
+			<p>The StudentRND workspace is a two story maker/hackerspace, offering access to tools such as a new Makerbot 2 3D printer, Lasercutter in the prototyping area upstares. Downstairs we have a large garage space offering many tools for all kinds of engineering projects, presentation room and rec. room for lounging.</p>
+
+		</div>
+<div class="box">
+			<img src="/img/laser.jpg" />
+			<h1><center>The Projects</center></h1>
+			<p>The StudentRND workspace has helped make, young entrepreneurs, been the work place of software/web developers, electrical engineers and has lead to many completed projects that might not have exsisted if it weren't for the community workspace.</p>
+
 		</div>
 		<div class="box" id="sponsors">
 			<h1>Sponsors</h1>
@@ -28,10 +34,16 @@
 	</div>
 	<div class="span6">
 		<div class="box">
-			<img src="http://studentrnd.org/assets/img/biggestcodeday.jpg" />
-			<h1>CodeDay</h1>
-			<p>Stop thinking about building the next big thing. Go and build it. Join us at CodeDay and pitch your idea, form a team, and build something amazing. All in 24 hours.</p>
-			<p><a href="http://codeday.org/" class="btn">Learn More</a></p>
+			<img src="/img/recroom.jpg" />
+			<h1><center>Memberships</center></h1>
+			<p>Along with the support from our sponsors, the StudentRND workspace is made possible by the generous support of our community in the form of memberships. Memberships come in $10 and $25 a month packages. Head over to our contact page and ask us how to sign up today!</p>
+
+		</div>
+	<div class="box">
+			<img src="/img/class.jpg" />
+			<h1><center>Classes</center></h1>
+			<p>Along with the support from our sponsors, the StudentRND workspace is made possible by the generous support of our community in the form of memberships. Paying members also will be taught how to use our equipment.</p>
+
 		</div>
 		<div class="box">
 			<h1>Presented By:</h1>
